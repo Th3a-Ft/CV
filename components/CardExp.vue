@@ -2,15 +2,15 @@
   <h2 class="text-xl text-center font-bold">Mes expériences</h2>
   <!-- Slider card sm -->
   <div class="relative w-full max-w-xl mx-auto overflow-hidden p-6 ">
-    <div class="flex justify-between transition-transform duration-500 w-full p-2"
+    <div class="flex justify-between transition-transform duration-500 w-full"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-      <div v-for="exp in experiences" class="w-full flex-shrink-0 px-6">
+      <div v-for="experience in experiences" class="w-full flex-shrink-0 px-6">
         <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl">
-          <h3 class="font-bold text-center pb-2">{{ exp.title }}</h3>
-          <p class="text-xs pt-2 pl-2">{{ exp.entreprise }} - {{ exp.date }}</p>
-          <p class="p-2">{{ exp.description }}</p>
+          <h3 class="font-bold text-center pb-2">{{ experience.title }}</h3>
+          <p class="text-xs pt-2 pl-2">{{ experience.entreprise }} - {{ experience.date }}</p>
+          <p class="p-2">{{ experience.description}}</p>
           <div class="text-center">
-            <NuxtLink :to="`/experiences/${exp.id}`" class="p-2 rounded-lg bg-[#800101] text-white">En savoir plus
+            <NuxtLink :to="`/experiences/${experience.id}`" class="p-2 rounded-lg bg-[#800101] text-white">En savoir plus
             </NuxtLink>
           </div>
         </div>
@@ -48,11 +48,11 @@ const experiences = {
     "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
   }, 
   epage: {
-    "id": "pvv",
+    "id": "epage",
     "title": "Chargé de communication",
-    "entreprise": "Pays Voironnais Volley",
-    "date": "2023-2025",
-    "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
+    "entreprise": "Epage de la Bourbre",
+    "date": "2023-2024",
+    "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print",
   },
 
 }

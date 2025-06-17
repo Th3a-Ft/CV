@@ -2,7 +2,7 @@
     <h2 class="text-xl text-center font-bold">Mes formations</h2>
     <!-- Slider card sm -->
     <div class="relative w-full max-w-xl mx-auto overflow-hidden p-6 ">
-        <div class="flex justify-between transition-transform duration-500 w-full p-2"
+        <div class="flex justify-between transition-transform duration-500 w-full"
             :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
             <div v-for="training in trainings" class="w-full flex-shrink-0 px-6">
                 <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl">
