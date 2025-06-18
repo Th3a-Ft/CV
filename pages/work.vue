@@ -38,12 +38,6 @@
     <div v-if="curious">
         <h1 class="font-bold text-center">Curieux</h1>
     </div>
-
-
-
-
-
-
 </template>
 
 <script setup>

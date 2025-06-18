@@ -1,8 +1,9 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-<!--     <Header/>
- -->    <NuxtPage />
-     <Footer/>
+    <!--     <Header/>
+ -->
+    <NuxtPage />
+    <Footer />
   </div>
 </template>
