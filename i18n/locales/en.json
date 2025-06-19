@@ -1,10 +1,26 @@
 {
-    "bjr":{
+    "bjr": {
         "bjr": "Hello"
     },
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
         "about": "About me"
+    },
+    /* Trad Portofolio */
+    "portfolio": {
+        "title":"You are ?",
+        "comm": {
+            "question": "Communications professional",
+            "title": "Portofolio Communication"
+        },
+        "dev": {
+            "question": "Development professional ?",
+            "title": "Developer Portofolio"
+        },
+        "curious": {
+            "question": "Just curious",
+            "title": "My entire portfolio "
+        }
     }
 }

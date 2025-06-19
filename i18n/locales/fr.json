@@ -1,19 +1,38 @@
 {
-    "bjr":{
+    /* Test */
+    "bjr": {
         "bjr": "Bonjour"
     },
+    /* Trad nav */
     "nav": {
         "home": "Accueil",
         "portfolio": "Portfolio",
         "about": "A propos de moi"
     },
+    /* Trad CardExperience */
     "experiences": {
-        "dtc" :{
-            "id":"dtc",
-            "title":"Développeur web",
-            "entreprise":"(nineteen)²",
-            "date":"juin 2025",
-            "description":"Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+        "dtc": {
+            "id": "dtc",
+            "title": "Développeur web",
+            "entreprise": "(nineteen)²",
+            "date": "juin 2025",
+            "description": "Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+        }
+    },
+    /* Trad Portofolio */
+    "portfolio": {
+        "title": "Vous êtes ?",
+        "comm": {
+            "question": "Pro de la comm ?",
+            "title": "Portofolio Comm"
+        },
+        "dev": {
+            "question": "Pro du dev ?",
+            "title": "Portofolio Comm"
+        },
+        "curious": {
+            "question": "Juste curieux",
+            "title": "Tout mon portfolio"
         }
     }
 }
