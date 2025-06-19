@@ -1,0 +1,10 @@
+{
+    "bjr":{
+        "bjr": "Hello"
+    },
+    "nav": {
+        "home": "Home",
+        "portfolio": "Portfolio",
+        "about": "About me"
+    }
+}

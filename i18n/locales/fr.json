@@ -1,0 +1,19 @@
+{
+    "bjr":{
+        "bjr": "Bonjour"
+    },
+    "nav": {
+        "home": "Accueil",
+        "portfolio": "Portfolio",
+        "about": "A propos de moi"
+    },
+    "experiences": {
+        "dtc" :{
+            "id":"dtc",
+            "title":"Développeur web",
+            "entreprise":"(nineteen)²",
+            "date":"juin 2025",
+            "description":"Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+        }
+    }
+}
