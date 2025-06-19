@@ -11,13 +11,27 @@
     },
     /* Trad CardExperience */
     "experiences": {
-        "dtc": {
-            "id": "dtc",
-            "title": "Développeur web",
-            "entreprise": "(nineteen)²",
-            "date": "juin 2025",
-            "description": "Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
-        }
+            "dtc": {
+                "id": "dtc",
+                "title": "Développeur web",
+                "company": "(nineteen)²",
+                "date": "juin 2025",
+                "description": "Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+            },
+            "pvv": {
+                "id": "pvv",
+                "title": "Chargé de communication",
+                "company": "Pays Voironnais Volley",
+                "date": "2023-2025",
+                "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
+            },
+            "epage": {
+                "id": "epage",
+                "title": "Chargé de communication",
+                "company": "Epage de la Bourbre",
+                "date": "2023-2024",
+                "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print",
+            }
     },
     /* Trad Portofolio */
     "portfolio": {

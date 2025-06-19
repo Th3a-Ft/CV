@@ -1,7 +1,6 @@
 <template>
     <Header />
-    <CardExp />
-    <CardForm />
+    <Experiences />
 
 
 </template>
