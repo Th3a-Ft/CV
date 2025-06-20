@@ -5,12 +5,15 @@
     <div class="flex justify-between transition-transform duration-500 w-full"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
 
-      <CardExperience :id="$t('experiences.dtc.id')" :title="$t('experiences.dtc.title')" :company="$t('experiences.dtc.company')"
-        :date="$t('experiences.dtc.date')" :description="$t('experiences.dtc.description')" />
-      <CardExperience :id="$t('experiences.pvv.id')" :title="$t('experiences.pvv.title')" :company="$t('experiences.pvv.company')"
-        :date="$t('experiences.pvv.date')" :description="$t('experiences.pvv.description')" />
-      <CardExperience :id="$t('experiences.epage.id')" :title="$t('experiences.epage.title')" :company="$t('experiences.epage.company')"
-        :date="$t('experiences.epage.date')" :description="$t('experiences.epage.description')" />
+      <CardExperience :id="$t('experiences.dtc.id')" :title="$t('experiences.dtc.title')"
+        :company="$t('experiences.dtc.company')" :date="$t('experiences.dtc.date')"
+        :description="$t('experiences.dtc.description')" />
+      <CardExperience :id="$t('experiences.pvv.id')" :title="$t('experiences.pvv.title')"
+        :company="$t('experiences.pvv.company')" :date="$t('experiences.pvv.date')"
+        :description="$t('experiences.pvv.description')" />
+      <CardExperience :id="$t('experiences.epage.id')" :title="$t('experiences.epage.title')"
+        :company="$t('experiences.epage.company')" :date="$t('experiences.epage.date')"
+        :description="$t('experiences.epage.description')" />
 
 
     </div>
@@ -34,25 +37,22 @@
 
 /* Fct contrôle des btn slider */
 import { ref } from 'vue';
-import experiences from '@/i18n/locales/fr.json'
+import french from '@/i18n/locales/fr.json'
 
 /* Obtenir la taille de l'objet' */
-function getExperiencesLength() {
-  const ExperiencesLength = Object.keys(experiences.experiences).length
-  console.log(experiences.experiences);
-  return ExperiencesLength
-}
+/*Computed : permet de garder en cache la taille et n'est recalculée que si modif sur french.experiences */
+const ExperiencesLength = computed(() => { return Object.keys(french.experiences).length });
 
 const currentIndex = ref(0);
 
 const nextSlide = () => {
   console.log("Next");
-  currentIndex.value = (currentIndex.value + 1) % getExperiencesLength()
+  currentIndex.value = (currentIndex.value + 1) % ExperiencesLength.value
 };
 
 const previousSlide = () => {
   console.log("Previous");
-  currentIndex.value = (currentIndex.value - 1 + getExperiencesLength()) % getExperiencesLength()
+  currentIndex.value = (currentIndex.value - 1 + ExperiencesLength) % ExperiencesLength.value
 }
 
 

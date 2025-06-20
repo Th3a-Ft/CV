@@ -37,28 +37,24 @@
 /* Fct contrôle des btn slider */
 import { ref } from 'vue';
 /*Import objet trainings depuis le dossier fr.json*/
-import trainings from '@/i18n/locales/fr.json'
+import french from '@/i18n/locales/fr.json'
 
 
 /* Obtenir la taille de l'objet' */
-function gettrainingsLength() {
-    const trainingsLength = Object.keys(trainings.trainings).length
-    console.log(trainingsLength);
-    console.log(trainings);
-    return trainingsLength
-}
+const trainingsLength=computed(()=>{
+    return Object.keys(french.trainings).length
+})
 
 const currentIndex = ref(0);
 
 const nextSlide = () => {
     console.log("Next");
-    currentIndex.value = (currentIndex.value + 1) % gettrainingsLength()
+    currentIndex.value = (currentIndex.value + 1) % trainingsLength.value
 };
 
 const previousSlide = () => {
     console.log("Previous");
-    currentIndex.value = (currentIndex.value - 1 + gettrainingsLength()) % gettrainingsLength()
+    currentIndex.value = (currentIndex.value - 1 + trainingsLength.value) % trainingsLength.value
 }
-
 
 </script>
