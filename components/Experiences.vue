@@ -5,11 +5,11 @@
     <div class="flex justify-between transition-transform duration-500 w-full"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
 
-      <CardExperience :title="$t('experiences.dtc.title')" :company="$t('experiences.dtc.company')"
+      <CardExperience :id="$t('experiences.dtc.id')" :title="$t('experiences.dtc.title')" :company="$t('experiences.dtc.company')"
         :date="$t('experiences.dtc.date')" :description="$t('experiences.dtc.description')" />
-      <CardExperience :title="$t('experiences.pvv.title')" :company="$t('experiences.pvv.company')"
+      <CardExperience :id="$t('experiences.pvv.id')" :title="$t('experiences.pvv.title')" :company="$t('experiences.pvv.company')"
         :date="$t('experiences.pvv.date')" :description="$t('experiences.pvv.description')" />
-      <CardExperience :title="$t('experiences.epage.title')" :company="$t('experiences.epage.company')"
+      <CardExperience :id="$t('experiences.epage.id')" :title="$t('experiences.epage.title')" :company="$t('experiences.epage.company')"
         :date="$t('experiences.epage.date')" :description="$t('experiences.epage.description')" />
 
 

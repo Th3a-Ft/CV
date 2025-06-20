@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col-reverse flex-wrap items-center my-6">
-        <h1 class="text-2xl font-bold">{{ $t("bjr.bjr") }}</h1>
+        <h1 class="text-2xl font-bold">Théa Fort</h1>
         <div class="flex justify-center">
             <img src="~/public/img/thea.jpg" class="rounded-full w-1/3">
         </div>
