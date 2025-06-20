@@ -3,37 +3,68 @@
     "bjr": {
         "bjr": "Bonjour"
     },
-    /* Trad nav */
+    /* Traduction nav */
     "nav": {
         "home": "Accueil",
         "portfolio": "Portfolio",
         "about": "A propos de moi"
     },
-    /* Trad CardExperience */
+    /* Traduction CardExperience */
     "experiences": {
-            "dtc": {
-                "id": "dtc",
-                "title": "Développeur web",
-                "company": "(nineteen)²",
-                "date": "juin 2025",
-                "description": "Création de pages sur le site de Digitl Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
-            },
-            "pvv": {
-                "id": "pvv",
-                "title": "Chargé de communication",
-                "company": "Pays Voironnais Volley",
-                "date": "2023-2025",
-                "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
-            },
-            "epage": {
-                "id": "epage",
-                "title": "Chargé de communication",
-                "company": "Epage de la Bourbre",
-                "date": "2023-2024",
-                "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print",
-            }
+        "dtc": {
+            "id": "dtc",
+            "title": "Développeur web",
+            "company": "(nineteen)²",
+            "date": "juin 2025",
+            "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+        },
+        "pvv": {
+            "id": "pvv",
+            "title": "Chargé de communication",
+            "company": "Pays Voironnais Volley",
+            "date": "2023-2025",
+            "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
+        },
+        "epage": {
+            "id": "epage",
+            "title": "Chargé de communication",
+            "company": "Epage de la Bourbre",
+            "date": "2023-2024",
+            "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print",
+        }
     },
-    /* Trad Portofolio */
+    /* Traduction CardTrainings */
+    "trainings": {
+        "campus": {
+            "id": 1,
+            "title": "Développeur web",
+            "school": "Campus Numérique in the Alp",
+            "date": "En cours",
+            "url": "https://le-campus-numerique.fr/formations-developpeur2/",
+        },
+        "master": {
+            "id": 2,
+            "title": "Master Information Communication Publique et Médias",
+            "school": "Université Grenoble Alpes",
+            "date": "2020-2022",
+            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html"
+        },
+        "licence": {
+            "id": 3,
+            "title": "Licence professionnelle Développement Durable des Territoire par l'e-Commerce et l'e-Tourisme",
+            "school": "Université Toulouse Jean Jaurès",
+            "date": "2019-2020",
+            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/"
+        },
+        "dut": {
+            "id": 4,
+            "title": "Associate's Degree in Administrative and Commercial Management of Organisations",
+            "school": "IUT de St-Etienne",
+            "date": "2017-2019",
+            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html"
+        }
+    },
+    /* Traduction Portofolio */
     "portfolio": {
         "title": "Vous êtes ?",
         "comm": {

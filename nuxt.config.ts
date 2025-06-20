@@ -25,6 +25,6 @@ export default defineNuxtConfig({
     /* Défini le repertoire où sont les fichiers de trad */
     langDir:"locales",
     /* Ajoute l'ISO de la langue dans URL sauf pour la langue par défaut */
-    strategy:"prefix_except_default"
+    strategy:"prefix"
   }
 })

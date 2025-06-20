@@ -1,6 +1,7 @@
 <template>
     <Header />
     <Experiences />
+    <Trainings />
 
 
 </template>

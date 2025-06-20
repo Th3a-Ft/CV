@@ -1,40 +1,43 @@
 <template>
-    <h2 class="text-xl text-center font-bold">Mes formations</h2>
-    <!-- Slider card sm -->
-    <div class="relative w-full max-w-xl mx-auto overflow-hidden p-6 ">
-        <div class="flex justify-between transition-transform duration-500 w-full"
-            :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-            <div v-for="training in trainings" class="w-full flex-shrink-0 px-6">
-                <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl">
-                    <h3 class="font-bold text-center pb-2">{{ training.title }}</h3>
-                    <p class="text-xs pt-2 pl-2">{{ training.school }} - {{ training.date }}</p>
-                    <p class="p-2">{{ training.description }}</p>
-                    <div class="text-center">
-                        <NuxtLink :to="`${training.url}`" target="_blanck" class="p-2 rounded-lg bg-[#800101] text-white">En
-                            savoir plus
-                        </NuxtLink>
-                    </div>
-                </div>
+    <div class="w-full flex-shrink-0 px-6">
+        <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl">
+            <h3 class="font-bold text-center pb-2">{{ title }}</h3>
+            <p class="text-xs pt-2 pl-2">{{ school }} - {{ date }}</p>
+            <p class="p-2">{{ description }}</p>
+            <div class="text-center">
+                <NuxtLink :to="`${url}`" target="_blanck" class="p-2 rounded-lg bg-[#800101] text-white">En
+                    savoir plus
+                </NuxtLink>
             </div>
-        </div>
-
-        <!-- Boutons -->
-        <div>
-            <button @click="previousSlide"
-                class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white px-3 py-1 shadow">
-                ←
-            </button>
-            <button @click="nextSlide"
-                class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white px-3 py-1 shadow">
-                →
-            </button>
         </div>
     </div>
 
+    <!-- Boutons -->
+<!--     <div>
+        <button @click="previousSlide"
+            class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white px-3 py-1 shadow">
+            ←
+        </button>
+        <button @click="nextSlide"
+            class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white px-3 py-1 shadow">
+            →
+        </button>
+    </div>
+ -->
 </template>
 
 <script setup>
-const trainings = {
+const props = defineProps({
+    id: String,
+    title: String,
+    school: String,
+    date: String,
+    url: String
+})
+
+
+
+/* const trainings = {
     campus: {
         "id": 1,
         "title": "Développeur web",
@@ -63,10 +66,8 @@ const trainings = {
         "date": "2017-2019",
         "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html",
     },
-
-
 }
-
+ */
 
 /* Fct contrôle des btn slider */
 import { ref } from 'vue';

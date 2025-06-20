@@ -7,9 +7,64 @@
         "portfolio": "Portfolio",
         "about": "About me"
     },
+    /* Trad CardExperience */
+    "experiences": {
+        "dtc": {
+            "id": "dtc",
+            "title": "Web Developer",
+            "company": "(nineteen)²",
+            "date": "june 2025",
+            "description": "Creation of pages on the Digital Test Center website using the Vue.js, Nuxt.js and Tailwind CSS frameworks"
+        },
+        "pvv": {
+            "id": "pvv",
+            "title": "Communications manager",
+            "company": "Pays Voironnais Volley",
+            "date": "2023-2025",
+            "description": "Overall communication for club events (social networks, posters, flyers, etc.), creating content for the club's social networks, managing and sending out the newsletter"
+        },
+        "epage": {
+            "id": "epage",
+            "title": "Communications manager",
+            "company": "Epage de la Bourbre",
+            "date": "2023-2024",
+            "description": "Organisation of official ceremonies, management of social networks, creation of print media"
+        }
+    },
+    /* Traduction CardTrainings */
+    "trainings": {
+        "campus": {
+            "id": 1,
+            "title": "Web Developer",
+            "school": "Campus Numérique in the Alp",
+            "date": "In progress",
+            "url": "https://le-campus-numerique.fr/formations-developpeur2/",
+        },
+        "master": {
+            "id": 2,
+            "title": "Masters in Information, Public Communication and the Media",
+            "school": "Grenoble Alpes University",
+            "date": "2020-2022",
+            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html",
+        },
+        "licence": {
+            "id": 3,
+            "title": "Professional degree in Sustainable Development of Territories through e-Commerce and e-Tourism",
+            "school": "Toulouse Jean Jaurès University",
+            "date": "2019-2020",
+            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/",
+        },
+        "dut": {
+            "id": 4,
+            "title": "DUT Gestion Administrtive et Commerciale des Organisations",
+            "school": "IUT de St-Etienne",
+            "date": "2017-2019",
+            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html",
+        }
+    },
     /* Trad Portofolio */
     "portfolio": {
-        "title":"You are ?",
+        "title": "You are ?",
         "comm": {
             "question": "Communications professional",
             "title": "Portofolio Communication"
