@@ -1,5 +1,6 @@
 <template>
-    <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-2 my-6 p-2">
+    <div v-show="filtreTag" class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-2 my-6 p-2">
+
         <h2 class="text-xl text-center font-bold mb-6">{{ title }}</h2>
 
         <div class="flex flex-col flex-nowrap">
@@ -9,6 +10,7 @@
                 <img :src="url" :class="['h-1/3', DisplayDetails ? 'block' : 'hidden']" />
                 <div :class="['h-1/3', DisplayDetails ? 'hidden' : 'block']">
                     <p>{{ description }}</p>
+                    <p>{{ tags }}</p>
                 </div>
             </button>
         </div>
@@ -17,16 +19,25 @@
 
 </template>
 <script setup>
+import { ref, computed } from 'vue';
 
 const props = defineProps({
     id: Number,
     url: String,
     title: String,
     description: String,
+    tags: Array,
+    filtre:Array,
 })
 
 /* Par def DisplayDetails = true */
 const DisplayDetails = ref(true)
 
 
+const filtreTag=computed(()=>{
+    console.log(props.filtre.some((filtre) => props.tags.includes(filtre)))
+    return props.filtre.some((filtre) => props.tags.includes(filtre))
+})
+
+console.log(filtreTag)
 </script>
