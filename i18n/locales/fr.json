@@ -3,21 +3,13 @@
     "bjr": {
         "bjr": "Bonjour"
     },
-    "objectsTest": [
-        {
-            "id": 1,
-            "title": "dtc",
-            "tag": "bjr"
-        },
-        {
-            "id": 2,
-            "title": "pvv",
-            "tag": [
-                "bye",
-                "aurevoir"
-            ]
-        }
-     ],
+    "general": {
+        "filter": "Filtrer selon les expériences  ",
+        "allFilter": "Tous"
+    },
+    "title": {
+        "experiences": "Mes expériences"
+    },
     /* Traduction nav */
     "nav": {
         "home": "Accueil",

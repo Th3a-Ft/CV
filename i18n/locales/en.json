@@ -2,6 +2,14 @@
     "bjr": {
         "bjr": "Hello"
     },
+    "general": {
+        "filter": "Filter by experience  ",
+        "allFilter": "All"
+    },
+    "title": {
+        "experiences": "My experiences"
+    },
+
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
