@@ -43,7 +43,6 @@ const TagFiltered = computed(() => {
     if (tagSelector.value === "all") {
         return allTags
     } else {
-        console.log("ufuhuf" + allTags.filter(object => tagSelector.value.includes(object)))
         return allTags.filter(object => tagSelector.value.includes(object))
     }
 

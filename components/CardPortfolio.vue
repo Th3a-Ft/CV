@@ -34,8 +34,8 @@ const props = defineProps({
 const DisplayDetails = ref(true)
 
 /*props.tags --> permet d'accéder aux données des props définies*/
+/*some() = test si au moins 1 des arguments est dans l'array si oui true sinon false*/
 const filterTag=computed(()=>{
-    console.log(props.filterProps.some((filterProps) => props.tags.includes(filterProps)))
     return props.filterProps.some((filterProps) => props.tags.includes(filterProps))
 })
 
