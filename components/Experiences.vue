@@ -38,6 +38,7 @@
 /* Fct contrôle des btn slider */
 import { ref } from 'vue';
 import french from '@/i18n/locales/fr.json'
+console.log( french)
 
 /* Obtenir la taille de l'objet' */
 /*Computed : permet de garder en cache la taille et n'est recalculée que si modif sur french.experiences */
@@ -52,7 +53,7 @@ const nextSlide = () => {
 
 const previousSlide = () => {
   console.log("Previous");
-  currentIndex.value = (currentIndex.value - 1 + ExperiencesLength) % ExperiencesLength.value
+  currentIndex.value = (currentIndex.value - 1 + ExperiencesLength.value) % ExperiencesLength.value
 }
 
 

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ["@nuxtjs/i18n"],
+  modules: ["@nuxtjs/i18n", '@nuxt/image'],
   i18n: {
 /*     vueI18n: './i18n/i18n.config.ts',
  */    defaultLocale: 'fr',

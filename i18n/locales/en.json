@@ -65,7 +65,7 @@
     /* Trad Portofolio */
     "portfolio": {
         "title": "You are ?",
-        "comm": {
+        /*         "comm": {
             "question": "Communications professional",
             "title": "Portofolio Communication"
         },
@@ -76,6 +76,31 @@
         "curious": {
             "question": "Just curious",
             "title": "My entire portfolio "
-        }
+        },
+ */ "social": {
+            "url": "~/public/img/comm.png",
+            "title": "Social Media Manager",
+            "description": "Day-to-day management of the Facebook, Instagram and LinkedIn accounts: planning and publishing content, animating communities, moderating comments and private messages. Creating attractive visuals, writing texts adapted to each platform, and monitoring performance using analysis tools. Objective: to develop brand awareness, boost engagement and support marketing objectives."
+        },
+        "graphic": {
+            "url": "~/public/img/comm.png",
+            "title": "Graphic design",
+            "description": "Production of graphic media such as flyers and posters, from conception to completion, ensuring that a clear, impactful message is conveyed. Each creation is designed to respect the client's visual identity and adapt to the context of distribution (print or digital)."
+        },
+        "newsletter": {
+            "url": "~/public/img/comm.png",
+            "title": "Newsletter management",
+            "description": "Designing, writing and sending newsletters in line with the editorial line and communication objectives. This includes creating visuals, structuring content, optimising design for all media (responsive), and analysing performance (open rates, clicks, etc.)."
+        },
+        "development": {
+            "url": "~/public/img/comm.png",
+            "title": "Web Developer",
+            "description": "Design and development of websites, both via CMS such as WordPress and through bespoke development in pure code (HTML, CSS, JavaScript, PHP, etc.). Ability to adapt technical solutions to the needs of the project, while guaranteeing performance, responsiveness and a good user experience."
+        },
+        "tags": [
+            "(nineteen)²",
+            "Pays Voironnais Volley",
+            "Epage de la Bourbre"
+        ]
     }
 }

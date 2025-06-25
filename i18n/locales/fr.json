@@ -3,6 +3,21 @@
     "bjr": {
         "bjr": "Bonjour"
     },
+    "objectsTest": [
+        {
+            "id": 1,
+            "title": "dtc",
+            "tag": "bjr"
+        },
+        {
+            "id": 2,
+            "title": "pvv",
+            "tag": [
+                "bye",
+                "aurevoir"
+            ]
+        }
+     ],
     /* Traduction nav */
     "nav": {
         "home": "Accueil",
@@ -66,7 +81,7 @@
     },
     /* Traduction Portofolio */
     "portfolio": {
-        "title": "Vous êtes ?",
+        /*         "title": "Vous êtes ?",
         "comm": {
             "question": "Pro de la comm ?",
             "title": "Portofolio Comm"
@@ -78,6 +93,41 @@
         "curious": {
             "question": "Juste curieux",
             "title": "Tout mon portfolio"
+        },
+ */
+        "social": {
+            "url": "~/public/img/comm.png",
+            "title": "Animation des réseaux sociaux",
+            "description": "Gestion quotidienne des comptes Facebook, Instagram et LinkedIn : planification et publication de contenus, animation des communautés, modération des commentaires et messages privés. Création de visuels attractifs, rédaction de textes adaptés à chaque plateforme, et suivi des performances via des outils d’analyse. Objectif : développer la notoriété de la marque, renforcer l’engagement et soutenir les objectifs marketing.",
+            "tags": [
+                "pvv",
+                "epage"
+            ]
+        },
+        "graphic": {
+            "url": "~/public/img/comm.png",
+            "title": "Création graphique",
+            "description": "Réalisation de supports graphiques tels que flyers et affiches, depuis la conception jusqu’à la finalisation, en veillant à transmettre un message clair et impactant. Chaque création est pensée pour respecter l'identité visuelle du client et s’adapter au contexte de diffusion (print ou digital).",
+            "tags": [
+                "pvv",
+                "epage"
+            ]
+        },
+        "newsletter": {
+            "url": "~/public/img/comm.png",
+            "title": "Gestion de newsletters",
+            "description": "Conception, rédaction et envoi de newsletters dans le respect de la ligne éditoriale et des objectifs de communication. Cela inclut la création de visuels, la structuration des contenus, l’optimisation du design pour tous les supports (responsive), ainsi que l’analyse des performances (taux d’ouverture, clics, etc.).",
+            "tags": [
+                "pvv"
+            ]
+        },
+        "development": {
+            "url": "~/public/img/comm.png",
+            "title": "Developeur web",
+            "description": "Conception et développement de sites web, aussi bien via des CMS comme WordPress que par du développement sur-mesure en code pur (HTML, CSS, JavaScript, PHP…). Capacité à adapter les solutions techniques aux besoins du projet, tout en garantissant performance, responsivité et bonne expérience utilisateur.",
+            "tags": [
+                "(nineteen)²"
+            ]
         }
     }
 }

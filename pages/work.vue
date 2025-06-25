@@ -1,7 +1,20 @@
 <template>
-    <Header />
+
     <h1 class="text-2xl font-bold text-center">Portfolio</h1>
-    <hr class="w-1/2 mx-auto border-gray-100">
+    <select id="ExperienceSelector" v-model="tagSelector">
+        <option value="all">All</option>
+        <option value="nineteen">(nineteen)²</option>
+        <option value="pvv">Pays Voironnais Volley</option>
+        <option value="epage">Epage de la Bourbre</option>
+    </select>
+
+
+    <div v-for="object in objectFiltered">
+        <Portfolio />
+    </div>
+
+
+    <!--     <hr class="w-1/2 mx-auto border-gray-100">
 
     <p class="text-center">{{ $t("portfolio.title") }}</p>
     <div class="flex flex-row flex-nowrap justify-evenly pt-4">
@@ -38,13 +51,40 @@
     <div v-if="curious">
         <h1 class="font-bold text-center">{{ $t("portfolio.curious.title") }}</h1>
     </div>
+ -->
 </template>
 
 <script setup>
-import { ref } from 'vue'
+const tagSelector = ref("all")
 
-const comm = ref(false)
+const objectsTest = [
+    {
+        "id": 1,
+        "title": "dtc",
+        "tag": "bjr"
+    },
+    {
+        "id": 2,
+        "title": "pvv",
+        "tag": ["bye", "aurevoir"]
+    },
+]
+
+const objectFiltered = computed(() => {
+    if (tagSelector.value === "all") {
+        return objectsTest
+    } else {
+        return objectsTest.filterd(object => object.tags.includes(tagSelector.value))
+    }
+
+})
+
+
+
+
+
+/* const comm = ref(false)
 const dev = ref(false)
 const curious = ref(false)
-
+ */
 </script>

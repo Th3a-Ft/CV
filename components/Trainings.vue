@@ -48,12 +48,10 @@ const trainingsLength=computed(()=>{
 const currentIndex = ref(0);
 
 const nextSlide = () => {
-    console.log("Next");
     currentIndex.value = (currentIndex.value + 1) % trainingsLength.value
 };
 
 const previousSlide = () => {
-    console.log("Previous");
     currentIndex.value = (currentIndex.value - 1 + trainingsLength.value) % trainingsLength.value
 }
 
