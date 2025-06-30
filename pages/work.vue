@@ -15,7 +15,7 @@
     <div>
         <div class="flex flex-row-reverse flex-wrap md:flex-wrap justify-evenly">
             <CardPortfolio :url="'/img/comm.png'" :title="$t('portfolio.social.title')"
-                :description="$t('portfolio.social.description')" :tags="['pvv', 'epage']" :filterProps="TagFiltered" />
+                :description="$t('portfolio.social.description')" v-if="['all', 'pvv', 'epage'].includes(tagSelector)" />
             <CardPortfolio :url="'/img/comm.png'" :title="$t('portfolio.graphic.title')"
                 :description="$t('portfolio.graphic.description')" :tags="['pvv', 'epage']"
                 :filterProps="TagFiltered" />
@@ -45,7 +45,6 @@ const TagFiltered = computed(() => {
     } else {
         return allTags.filter(object => tagSelector.value.includes(object))
     }
-
 })
 
 

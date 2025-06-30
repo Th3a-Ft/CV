@@ -1,5 +1,5 @@
 <template>
-    <div v-show="filterTag" class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-2 my-6 p-2 w-5/11 max-w-1/3">
+    <div  class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-2 my-6 p-2 w-5/11 max-w-1/3">
 
         <h2 class="text-xl text-center font-bold mb-6">{{ title }}</h2>
 
@@ -26,18 +26,10 @@ const props = defineProps({
     url: String,
     title: String,
     description: String,
-    tags: Array,
-    filterProps:Array,
 })
 
 /* Par def DisplayDetails = true */
 const DisplayDetails = ref(true)
 
-/*props.tags --> permet d'accéder aux données des props définies*/
-/*some() = test si au moins 1 des arguments est dans l'array si oui true sinon false*/
-const filterTag=computed(()=>{
-    return props.filterProps.some((filterProps) => props.tags.includes(filterProps))
-})
 
-console.log(filterTag)
 </script>

@@ -1,52 +1,27 @@
 <template>
-    <form class="flex flex-col items-left bg-gray-100 w-1/2 mx-auto px-6" @submit.prevent="hello">
+    <form id="formContact" class="flex flex-col items-left bg-gray-100 w-1/2 mx-auto px-6" method="post"
+        action="https://formtester.goodbytes.be/post.php">
         <div class="flex flex-row w-2/3">
             <div class="flex flex-col">
                 <label for="firstname">Prénom</label>
-                <textarea v-model="form.firstname" id="firstname" class="bg-white"></textarea>
+                <input id="firstname" name="firstname" type="text" class="bg-white">
             </div>
             <div class="flex flex-col pl-6">
                 <label for="lastname">Nom</label>
-                <textarea v-model="form.lastname" id="lastname" class="bg-white w-full"></textarea>
+                <input id="lastname" name="lastname" type="text" class="bg-white w-full">
             </div>
         </div>
         <label for="mailObject">Objet du mail</label>
-        <textarea v-model="form.mailObject" id="mailObject" class="bg-white w-1/3"></textarea>
+        <input id="mailObject" name="mailObject" type="text" class="bg-white w-1/3">
         <label for="emailAdress">Adresse email</label>
-        <textarea v-model="form.emailAdress" id="emailAdress" class="bg-white w-2/3"></textarea>
+        <input id="emailAdress" name="emailAdress" type="email" class="bg-white w-2/3">
         <label for="emailContent">Votre message</label>
-        <textarea v-model="form.emailContent" id="emailContent" class="bg-white w-full"></textarea>
+        <textarea id="emailContent" name="emailContent" class="bg-white w-full"></textarea>
         <input type="submit" class="my-6 bg-[#800101] w-1/5 text-white mx-auto">
-
     </form>
-    <div v-if="displayAnswer">
-        <p>Bonjour, {{ form.firstname }} {{ form.lastname }}</p>
-        <p>Vous m'avez contacté à propos de {{ form.mailObject }}</p>
-        <p>Pour rappel, voici le contenu de votre message :</p>
-        <p class="bg-gray-100">{{ form.emailContent }}</p>
-        <p>Je vous répondrais dès que possible sur cette adresse mail : {{ form.emailAdress }}</p>
-    </div>
 
 </template>
 
 <script setup>
-import { ref } from 'vue';
 
-function displayAnswer(){
-    if(firstname!=null){
-       
-    }
-}
-
-const form = ref({
-    firstname: " ",
-    lastname: " ",
-    mailObject: " ",
-    emailAdress: " ",
-    emailContent: ""
-})
-
-function hello() {
-    console.log(form.name)
-}
 </script>
