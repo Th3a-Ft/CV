@@ -1,7 +1,7 @@
 <template>
   <h2 class="text-xl text-center font-bold">{{ $t("title.experiences") }}</h2>
   <!-- Slider card sm -->
-  <div class="relative w-full max-w-xl mx-auto overflow-hidden p-6 ">
+  <div class="relative w-full max-w-xl mx-auto overflow-hidden p-6">
     <div class="flex justify-between transition-transform duration-500 w-full"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
 

@@ -1,8 +1,7 @@
 <template>
-    <div class="md-flex md-flex-row">
-        <Experiences class="md:w-1/3" />
-        <Trainings class="md:w-1/3"/>
-    </div>
+    <h1 class="text-center font-extrabold text-2xl">De la communication au développement</h1>
+
+
 
 </template>
 

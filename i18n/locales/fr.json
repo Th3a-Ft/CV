@@ -5,10 +5,12 @@
     },
     "general": {
         "filter": "Filtrer selon les expériences  ",
-        "allFilter": "Tous"
+        "allFilter": "Tous",
+        "clickMoreInfo":"Cliquez pour en savoir plus !"
     },
     "title": {
-        "experiences": "Mes expériences"
+        "experiences": "Mes expériences",
+        "trainings":"Mes formations"
     },
     /* Traduction nav */
     "nav": {
@@ -73,20 +75,6 @@
     },
     /* Traduction Portofolio */
     "portfolio": {
-        /*         "title": "Vous êtes ?",
-        "comm": {
-            "question": "Pro de la comm ?",
-            "title": "Portofolio Comm"
-        },
-        "dev": {
-            "question": "Pro du dev ?",
-            "title": "Portofolio Comm"
-        },
-        "curious": {
-            "question": "Juste curieux",
-            "title": "Tout mon portfolio"
-        },
- */
         "social": {
             "url": "~/public/img/comm.png",
             "title": "Animation des réseaux sociaux",
@@ -115,7 +103,7 @@
         },
         "development": {
             "url": "~/public/img/comm.png",
-            "title": "Developeur web",
+            "title": "Dévelopeur web",
             "description": "Conception et développement de sites web, aussi bien via des CMS comme WordPress que par du développement sur-mesure en code pur (HTML, CSS, JavaScript, PHP…). Capacité à adapter les solutions techniques aux besoins du projet, tout en garantissant performance, responsivité et bonne expérience utilisateur.",
             "tags": [
                 "(nineteen)²"

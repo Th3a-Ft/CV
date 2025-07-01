@@ -4,12 +4,13 @@
     },
     "general": {
         "filter": "Filter by experience  ",
-        "allFilter": "All"
+        "allFilter": "All",
+        "clickMoreInfo": "Click to know more!"
     },
     "title": {
-        "experiences": "My experiences"
+        "experiences": "My experiences",
+        "trainings":"My trainings"
     },
-
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",

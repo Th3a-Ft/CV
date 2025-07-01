@@ -1,26 +1,26 @@
 <template>
-    <div  class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-2 my-6 p-2 w-5/11 max-w-1/3">
+    <!-- onclick DisplayDetails devient false -->
+    <button @click="DisplayDetails = !DisplayDetails"
+        class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-12 my-6 md:mx-2 md:my-6 p-2 md:w-5/11 md:max-w-1/3 md:hover:bg-gray-100">
+        <h2 class="text-xl text-center font-bold mb-4 pt-4">{{ title }}</h2>
+        <div class="flex flex-col flex-wrap ">
 
-        <h2 class="text-xl text-center font-bold mb-6">{{ title }}</h2>
-
-        <div class="flex flex-col flex-nowrap">
-            <!-- onclick DisplayDetails devient false -->
-            <button @click="DisplayDetails = !DisplayDetails">
-                <!-- :class = style dynamique // []=tableau permettant d'avoir 1 style par défaut + un style si la condition est vraie + un style si condition est fausse / condition est vérifié avec "DisplayDetails ?"-->
-                <img :src="url" :class="['h-1/3', DisplayDetails ? 'block' : 'hidden']" />
-                <div :class="['h-1/3', DisplayDetails ? 'hidden' : 'block']">
-                    <p>{{ description }}</p>
-                </div>
-            </button>
+            <!-- :class = style dynamique // []=tableau permettant d'avoir 1 style par défaut + un style si la condition est vraie + un style si condition est fausse / condition est vérifié avec "DisplayDetails ?"-->
+            <img :src="url" :class="['h-1/3', DisplayDetails ? 'block' : 'hidden']" />
+            <div :class="['h-1/3 p-2', DisplayDetails ? 'hidden' : 'block']">
+                <p class="text-justify">{{ description }}</p>
+            </div>
         </div>
-    </div>
-
+        <div class="md:hidden">
+            <p :class="['text-xs bg-gray-100', DisplayDetails ? 'block' : 'hidden']">{{ $t("general.clickMoreInfo")}}</p>
+        </div>
+    </button>
 
 </template>
 <script setup>
 import { ref, computed } from 'vue';
 
-/*url = source image / tags : entreprise où ses compétences ont été utilisé / filterProps = array des tags filtrés */
+/*url = source image / tags : entreprise où ses compétences ont été utilisé*/
 const props = defineProps({
     id: Number,
     url: String,
