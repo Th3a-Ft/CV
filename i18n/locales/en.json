@@ -6,12 +6,13 @@
         "filter": "Filter by experience  ",
         "allFilter": "All",
         "clickMoreInfo": "Click to know more!",
-        "descriptionIndex":"After more than 3 years in the communications field, I wanted to acquire new technical skills in web development. My objectives? To broaden my field of competence, gain in versatility and combine creativity and technical skills."
+        "descriptionIndex": "After more than 3 years in the communications field, I wanted to acquire new technical skills in web development. My objectives? To broaden my field of competence, gain in versatility and combine creativity and technical skills.",
+        "buttonKnowMore": "Find out more"
     },
     "title": {
         "experiences": "My experiences",
         "trainings": "My trainings",
-        "index":"From communication to development"
+        "index": "From communication to development",
     },
     "nav": {
         "home": "Home",
@@ -126,6 +127,26 @@
         "languages": {
             "titleCard": "Spoken Language",
             "english": "English - level B2 (TOIEC 935)"
+        }
+    },
+    /*PAge ABout Me*/
+    "aboutMe": {
+        "description": "After several years' experience in the communications field, where I had the opportunity to work in a variety of sectors - public, private and voluntary - I decided to enhance my skills. That's why I took the “Advanced Developer” course at Campus Numérique in the Alps. ",
+        "riasec": "Beyond my professional background, my RIASEC profile reveals that I'm a social, methodical and curious person. Social, because I enjoy working in a team and collaborating on joint projects. Methodical, because I feel at ease in a structured environment that requires rigour, organisation and precision. And curious, because I love learning, discovering and understanding new things.",
+        "hobbies": {
+            "title":"My hobbies",
+            "travelling": {
+                "title": "Travelling",
+                "description": "jdnkejnfjenfjnen"
+            },
+            "reading": {
+                "title": "Reading",
+                "description": "jdnkejnfjenfjnen"
+            },
+            "sports": {
+                "title": "Sports",
+                "description": "jdnkejnfjenfjnen"
+            }
         }
     }
 }

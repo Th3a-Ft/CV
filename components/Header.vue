@@ -1,12 +1,12 @@
-<template>
-    <div class="flex flex-col-reverse flex-wrap items-center my-6">
+<template >
+    <div id="top" class="flex flex-col-reverse flex-wrap items-center my-6">
         <h1 class="text-2xl font-bold">Théa Fort</h1>
         <div class="flex justify-center">
             <img src="~/public/img/thea.jpg" class="rounded-full w-1/3">
         </div>
     </div>
 
-    <nav class="flex justify-around flex-row text-right text-white bg-[#800101] mb-2">
+    <nav class="flex justify-around flex-row text-right text-white bg-[#800101]">
         <NuxtLink :to="localePath('/')">{{ $t("nav.home") }}</NuxtLink>
         <NuxtLink :to="localePath('/work')">{{ $t("nav.portfolio") }}</NuxtLink>
         <NuxtLink :to="localePath('/aboutme')">{{ $t("nav.about") }}</NuxtLink>

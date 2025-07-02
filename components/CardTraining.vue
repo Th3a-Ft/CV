@@ -1,20 +1,18 @@
 <template>
-    <div class="w-full flex-shrink-0 px-6">
-        <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl">
-            <h3 class="font-bold text-center pb-2">{{ title }}</h3>
-            <p class="text-xs pt-2 pl-2">{{ school }} - {{ date }}</p>
-            <p class="p-2">{{ description }}</p>
-            <div class="text-center">
-                <NuxtLink :to="`${url}`" target="_blanck" class="p-2 rounded-lg bg-[#800101] text-white">En
-                    savoir plus
-                </NuxtLink>
-            </div>
+    <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl m-8 pb-8 px-8">
+        <h3 class="m-4 md:mt-8 font-bold text-center">{{ title }}</h3>
+        <p class="text-xs pt-2 pl-2">{{ school }} - {{ date }}</p>
+        <div class="text-center mt-8">
+            <NuxtLink :to="`${url}`" target="_blank" class="p-2 rounded-lg bg-[#800101] text-white">{{ $t('general.buttonKnowMore') }}
+            </NuxtLink>
         </div>
     </div>
 
 </template>
 
 <script setup>
+const localePath = useLocalePath();
+
 const props = defineProps({
     id: String,
     title: String,
@@ -22,27 +20,6 @@ const props = defineProps({
     date: String,
     url: String
 })
-
-/* Fct contrôle des btn slider */
-import { ref } from 'vue';
-
-/* Obtenir la taille de l'objet' */
-function getTrainingsLength() {
-    const TrainingsLength = Object.keys(trainings).length
-    return TrainingsLength
-}
-
-const currentIndex = ref(0);
-
-const nextSlide = () => {
-    console.log("Next");
-    currentIndex.value = (currentIndex.value + 1) % getTrainingsLength()
-};
-
-const previousSlide = () => {
-    console.log("Previous");
-    currentIndex.value = (currentIndex.value - 1 + getTrainingsLength()) % getTrainingsLength()
-}
 
 
 </script>

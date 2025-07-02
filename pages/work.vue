@@ -24,7 +24,7 @@
                 :description="$t('portfolio.newsletter.description')" v-if="['all','pvv'].includes(tagSelected)" />
             <CardPortfolio :url="'/img/comm.png'" :title="$t('portfolio.development.title')"
                 :description="$t('portfolio.development.description')" v-if="['all','nineteen'].includes(tagSelected)"
-                :filterProps="TagFiltered" />
+                :filterProps="TagFiltered"/>
         </div>
     </div>
 

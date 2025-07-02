@@ -7,7 +7,8 @@
         "filter": "Filtrer selon les expériences  ",
         "allFilter": "Tous",
         "clickMoreInfo": "Cliquez pour en savoir plus !",
-        "descriptionIndex":"Après plus de 3 ans dans le domaine de la communication, j’ai voulu acquérir de nouvelles compétences techniques en développement web. Mes objectifs ? Elargir mon champ de compétence,gagner en polyvalence et conjuguer créativité et technicité."
+        "descriptionIndex": "Après plus de 3 ans dans le domaine de la communication, j’ai voulu acquérir de nouvelles compétences techniques en développement web. Mes objectifs ? Elargir mon champ de compétence,gagner en polyvalence et conjuguer créativité et technicité.",
+        "buttonKnowMore": "En savoir plus"
     },
     "title": {
         "experiences": "Mes expériences",
@@ -122,6 +123,26 @@
         "languages": {
             "titleCard": "Langue parlée",
             "english": "Anglais - niveau B2 (TOIEC 935)"
+        }
+    },
+    /*PAge ABout Me*/
+    "aboutMe": {
+        "description": "Après plusieurs années d’expérience dans le domaine de la communication, où j’ai eu l’opportunité d’évoluer dans des secteurs variés — public, privé et associatif — j’ai choisi d’enrichir mes compétences. C’est pourquoi j’ai entrepris la formation de « Développeur avancé » au Campus Numérique in the Alps.",
+        "riasec": "Au-delà de mon parcours professionnel, mon profil RIASEC révèle que je suis une personne sociale, méthodique et curieuse. Sociale, car j’apprécie le travail en équipe et la collaboration sur des projets communs. Méthodique, car je me sens à l’aise dans un environnement structuré qui demande rigueur, organisation et précision. Et curieuse, car j’aime apprendre, découvrir et comprendre de nouvelles choses.",
+        "hobbies": {
+            "title":"Mes centres d'intérêts",
+            "travelling": {
+                "title": "Voyager",
+                "description": "jdnkejnfjenfjnen"
+            },
+            "reading": {
+                "title": "Lire",
+                "description": "jdnkejnfjenfjnen"
+            },
+            "sports": {
+                "title": "Sport",
+                "description": "jdnkejnfjenfjnen"
+            }
         }
     }
 }

@@ -5,13 +5,13 @@
         <div class="flex justify-between transition-transform duration-500 w-full"
             :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
 
-            <CardTraining :title="$t('trainings.campus.title')" :school="$t('trainings.campus.school')"
+            <SlideTraining :title="$t('trainings.campus.title')" :school="$t('trainings.campus.school')"
                 :date="$t('trainings.campus.date')" :url="$t('trainings.campus.url')" />
-            <CardTraining :title="$t('trainings.master.title')" :school="$t('trainings.master.school')"
+            <SlideTraining :title="$t('trainings.master.title')" :school="$t('trainings.master.school')"
                 :date="$t('trainings.master.date')" :url="$t('trainings.master.url')" />
-            <CardTraining :title="$t('trainings.licence.title')" :school="$t('trainings.licence.school')"
+            <SlideTraining :title="$t('trainings.licence.title')" :school="$t('trainings.licence.school')"
                 :date="$t('trainings.licence.date')" :url="$t('trainings.licence.url')" />
-            <CardTraining :title="$t('trainings.dut.title')" :school="$t('trainings.dut.school')"
+            <SlideTraining :title="$t('trainings.dut.title')" :school="$t('trainings.dut.school')"
                 :date="$t('trainings.dut.date')" :url="$t('trainings.dut.url')" />
 
 
