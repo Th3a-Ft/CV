@@ -6,11 +6,13 @@
     "general": {
         "filter": "Filtrer selon les expériences  ",
         "allFilter": "Tous",
-        "clickMoreInfo":"Cliquez pour en savoir plus !"
+        "clickMoreInfo": "Cliquez pour en savoir plus !",
+        "descriptionIndex":"Après plus de 3 ans dans le domaine de la communication, j’ai voulu acquérir de nouvelles compétences techniques en développement web. Mes objectifs ? Elargir mon champ de compétence,gagner en polyvalence et conjuguer créativité et technicité."
     },
     "title": {
         "experiences": "Mes expériences",
-        "trainings":"Mes formations"
+        "trainings": "Mes formations",
+        "index": "De la communication au développement"
     },
     /* Traduction nav */
     "nav": {
@@ -25,21 +27,21 @@
             "title": "Développeur web",
             "company": "(nineteen)²",
             "date": "juin 2025",
-            "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+            "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS"
         },
         "pvv": {
             "id": "pvv",
             "title": "Chargé de communication",
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
-            "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
+            "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter"
         },
         "epage": {
             "id": "epage",
             "title": "Chargé de communication",
             "company": "Epage de la Bourbre",
             "date": "2023-2024",
-            "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print",
+            "description": "Organisation de cérémonies officielles, gestion des réseaux sociaux, création de support print"
         }
     },
     /* Traduction CardTrainings */
@@ -49,7 +51,7 @@
             "title": "Développeur web",
             "school": "Campus Numérique in the Alp",
             "date": "En cours",
-            "url": "https://le-campus-numerique.fr/formations-developpeur2/",
+            "url": "https://le-campus-numerique.fr/formations-developpeur2/"
         },
         "master": {
             "id": 2,
@@ -78,36 +80,48 @@
         "social": {
             "url": "~/public/img/comm.png",
             "title": "Animation des réseaux sociaux",
-            "description": "Gestion quotidienne des comptes Facebook, Instagram et LinkedIn : planification et publication de contenus, animation des communautés, modération des commentaires et messages privés. Création de visuels attractifs, rédaction de textes adaptés à chaque plateforme, et suivi des performances via des outils d’analyse. Objectif : développer la notoriété de la marque, renforcer l’engagement et soutenir les objectifs marketing.",
-            "tags": [
-                "pvv",
-                "epage"
-            ]
+            "description": "Gestion quotidienne des comptes Facebook, Instagram et LinkedIn : planification et publication de contenus, animation des communautés, modération des commentaires et messages privés. Création de visuels attractifs, rédaction de textes adaptés à chaque plateforme, et suivi des performances via des outils d’analyse. Objectif : développer la notoriété de la marque, renforcer l’engagement et soutenir les objectifs marketing."
         },
         "graphic": {
             "url": "~/public/img/comm.png",
             "title": "Création graphique",
-            "description": "Réalisation de supports graphiques tels que flyers et affiches, depuis la conception jusqu’à la finalisation, en veillant à transmettre un message clair et impactant. Chaque création est pensée pour respecter l'identité visuelle du client et s’adapter au contexte de diffusion (print ou digital).",
-            "tags": [
-                "pvv",
-                "epage"
-            ]
+            "description": "Réalisation de supports graphiques tels que flyers et affiches, depuis la conception jusqu’à la finalisation, en veillant à transmettre un message clair et impactant. Chaque création est pensée pour respecter l'identité visuelle du client et s’adapter au contexte de diffusion (print ou digital)."
         },
         "newsletter": {
             "url": "~/public/img/comm.png",
             "title": "Gestion de newsletters",
-            "description": "Conception, rédaction et envoi de newsletters dans le respect de la ligne éditoriale et des objectifs de communication. Cela inclut la création de visuels, la structuration des contenus, l’optimisation du design pour tous les supports (responsive), ainsi que l’analyse des performances (taux d’ouverture, clics, etc.).",
-            "tags": [
-                "pvv"
-            ]
+            "description": "Conception, rédaction et envoi de newsletters dans le respect de la ligne éditoriale et des objectifs de communication. Cela inclut la création de visuels, la structuration des contenus, l’optimisation du design pour tous les supports (responsive), ainsi que l’analyse des performances (taux d’ouverture, clics, etc.)."
         },
         "development": {
             "url": "~/public/img/comm.png",
             "title": "Dévelopeur web",
-            "description": "Conception et développement de sites web, aussi bien via des CMS comme WordPress que par du développement sur-mesure en code pur (HTML, CSS, JavaScript, PHP…). Capacité à adapter les solutions techniques aux besoins du projet, tout en garantissant performance, responsivité et bonne expérience utilisateur.",
-            "tags": [
-                "(nineteen)²"
-            ]
+            "description": "Conception et développement de sites web, aussi bien via des CMS comme WordPress que par du développement sur-mesure en code pur (HTML, CSS, JavaScript, PHP…). Capacité à adapter les solutions techniques aux besoins du projet, tout en garantissant performance, responsivité et bonne expérience utilisateur."
+        }
+    },
+    /*Trad CardSkills*/
+    "skills": {
+        "titleSection": "Mes compétences",
+        "dev": {
+            "titleCard": "Développer des logiciels & applications",
+            "languages": "Langages web : HTML, CSS (Bootstrap & Tailwind CSS), JS (Vue.js & Nuxt)",
+            "algorithm": "Algorithmie",
+            "agile": "Méthode Agile"
+        },
+        "nocode": {
+            "titleCard": "Créer des sites internet (nocode)"
+        },
+        "socialMedia": {
+            "titleCard": "Animer les réseaux sociaux"
+        },
+        "software": {
+            "titleCard": "Concevoir des visuels & vidéos"
+        },
+        "newsletter": {
+            "titleCard": "Créer & envoyer des newsletters"
+        },
+        "languages": {
+            "titleCard": "Langue parlée",
+            "english": "Anglais - niveau B2 (TOIEC 935)"
         }
     }
 }

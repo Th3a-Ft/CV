@@ -5,11 +5,13 @@
     "general": {
         "filter": "Filter by experience  ",
         "allFilter": "All",
-        "clickMoreInfo": "Click to know more!"
+        "clickMoreInfo": "Click to know more!",
+        "descriptionIndex":"After more than 3 years in the communications field, I wanted to acquire new technical skills in web development. My objectives? To broaden my field of competence, gain in versatility and combine creativity and technical skills."
     },
     "title": {
         "experiences": "My experiences",
-        "trainings":"My trainings"
+        "trainings": "My trainings",
+        "index":"From communication to development"
     },
     "nav": {
         "home": "Home",
@@ -47,46 +49,34 @@
             "title": "Web Developer",
             "school": "Campus Numérique in the Alp",
             "date": "In progress",
-            "url": "https://le-campus-numerique.fr/formations-developpeur2/",
+            "url": "https://le-campus-numerique.fr/formations-developpeur2/"
         },
         "master": {
             "id": 2,
             "title": "Masters in Information, Public Communication and the Media",
             "school": "Grenoble Alpes University",
             "date": "2020-2022",
-            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html",
+            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html"
         },
         "licence": {
             "id": 3,
             "title": "Professional degree in Sustainable Development of Territories through e-Commerce and e-Tourism",
             "school": "Toulouse Jean Jaurès University",
             "date": "2019-2020",
-            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/",
+            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/"
         },
         "dut": {
             "id": 4,
             "title": "Associate's Degree in Administrative and Commercial Management of Organisations",
             "school": "IUT de St-Etienne",
             "date": "2017-2019",
-            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html",
+            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html"
         }
     },
     /* Trad Portofolio */
     "portfolio": {
         "title": "You are ?",
-        /*         "comm": {
-            "question": "Communications professional",
-            "title": "Portofolio Communication"
-        },
-        "dev": {
-            "question": "Development professional ?",
-            "title": "Developer Portofolio"
-        },
-        "curious": {
-            "question": "Just curious",
-            "title": "My entire portfolio "
-        },
- */ "social": {
+        "social": {
             "url": "~/public/img/comm.png",
             "title": "Social Media Manager",
             "description": "Day-to-day management of the Facebook, Instagram and LinkedIn accounts: planning and publishing content, animating communities, moderating comments and private messages. Creating attractive visuals, writing texts adapted to each platform, and monitoring performance using analysis tools. Objective: to develop brand awareness, boost engagement and support marketing objectives."
@@ -111,5 +101,31 @@
             "Pays Voironnais Volley",
             "Epage de la Bourbre"
         ]
+    },
+    /*Trad CardSkills*/
+    "skills": {
+        "titleSection": "My skills",
+        "dev": {
+            "titleCard": "Developing software and applications",
+            "languages": "Web languages: HTML, CSS (Bootstrap & Tailwind CSS), JS (Vue.js & Nuxt)",
+            "algorithm": "Algorithmic",
+            "agile": "Agile Method"
+        },
+        "nocode": {
+            "titleCard": "Creating websites (nocode)"
+        },
+        "socialMedia": {
+            "titleCard": "Managing social networks"
+        },
+        "software": {
+            "titleCard": "Designing visuals and videos"
+        },
+        "newsletter": {
+            "titleCard": "Creating & sending newsletters"
+        },
+        "languages": {
+            "titleCard": "Spoken Language",
+            "english": "English - level B2 (TOIEC 935)"
+        }
     }
 }
