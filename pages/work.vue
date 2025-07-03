@@ -31,6 +31,9 @@
 </template>
 
 <script setup>
+const localePath = useLocalePath();
+const route = useRoute();
+
 /*Par def : tagSelected.value=all*/
 const tagSelected = ref("all")
 
