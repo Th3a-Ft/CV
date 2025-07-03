@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/CV/',
+  },
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
@@ -23,8 +27,8 @@ export default defineNuxtConfig({
     /* Lazyloading : ttes les pages ne sont pas chargées directement */
     lazy: true,
     /* Défini le repertoire où sont les fichiers de trad */
-    langDir:"locales",
+    langDir: "locales",
     /* Ajoute l'ISO de la langue dans URL sauf pour la langue par défaut */
-    strategy:"prefix"
+    strategy: "prefix"
   }
 })
