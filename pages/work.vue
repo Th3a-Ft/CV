@@ -15,19 +15,18 @@
     <div>
         <div class="flex flex-col-reverse md:flex-row-reverse content-center flex-wrap md:flex-wrap justify-evenly">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
-            <CardPortfolio :url="'~/public/img/comm.png'" :title="$t('portfolio.social.title')"
+            <CardPortfolio :url="'img/comm.png'" :title="$t('portfolio.social.title')"
                 :description="$t('portfolio.social.description')" v-if="['all', 'pvv', 'epage'].includes(tagSelected)" />
-            <CardPortfolio :url="'~/public/img/comm.png'" :title="$t('portfolio.graphic.title')"
+            <CardPortfolio :url="'img/comm.png'" :title="$t('portfolio.graphic.title')"
                 :description="$t('portfolio.graphic.description')" v-if="['all','pvv', 'epage'].includes(tagSelected)"
                 :filterProps="TagFiltered" />
-            <CardPortfolio :url="'~/public/img/comm.png'" :title="$t('portfolio.newsletter.title')"
+            <CardPortfolio :url="'img/comm.png'" :title="$t('portfolio.newsletter.title')"
                 :description="$t('portfolio.newsletter.description')" v-if="['all','pvv'].includes(tagSelected)" />
-            <CardPortfolio :url="'~/public/img/comm.png'" :title="$t('portfolio.development.title')"
+            <CardPortfolio :url="'img/comm.png'" :title="$t('portfolio.development.title')"
                 :description="$t('portfolio.development.description')" v-if="['all','nineteen'].includes(tagSelected)"
                 :filterProps="TagFiltered"/>
         </div>
     </div>
-
 </template>
 
 <script setup>

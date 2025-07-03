@@ -6,7 +6,7 @@
         <div class="flex flex-col flex-wrap ">
 
             <!-- :class = style dynamique // []=tableau permettant d'avoir 1 style par défaut + un style si la condition est vraie + un style si condition est fausse / condition est vérifié avec "DisplayDetails ?"-->
-            <img :src="url" :class="['h-1/3', DisplayDetails ? 'block' : 'hidden']" />
+            <NuxtImg :src="url" :class="['h-1/3', DisplayDetails ? 'block' : 'hidden']" />
             <div :class="['h-1/3 p-2', DisplayDetails ? 'hidden' : 'block']">
                 <p class="text-justify">{{ description }}</p>
             </div>
