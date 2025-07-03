@@ -18,6 +18,9 @@
 
 </template>
 <script setup>
+const localePath = useLocalePath();
+const route = useRoute();
+
 import { ref, computed } from 'vue';
 
 /*url = source image / tags : entreprise où ses compétences ont été utilisé*/
