@@ -19,28 +19,30 @@
         </div>
     </div>
     <h2 class="text-center font-bold text-xl" id="skills">{{ $t('skills.titleSection') }}</h2>
-    <div class="flex flex-row flex-wrap lg:flex-wrap lg:justify-evenly">
+    <div class="grid md:grid-cols-2">
         <CardSkills
             :skills="[$t('skills.dev.languages'), $t('skills.dev.algorithm'), $t('skills.dev.agile'), 'PHP (Laravel)', 'Git']"
-            :title="$t('skills.dev.titleCard')" class="w-full lg:w-1/4" />
+            :title="$t('skills.dev.titleCard')"  class=""/>
 
-        <CardSkills :skills="['Wordpress', 'Webself']" :title="$t('skills.nocode.titleCard')" class="w-full lg:w-1/4" />
+        <CardSkills :skills="['Wordpress', 'Webself']" :title="$t('skills.nocode.titleCard')" />
 
         <CardSkills :skills="['Canva', 'Photoshop', 'Illustrator', 'Inkscape', 'Capcut']"
-            :title="$t('skills.software.titleCard')" class="w-full lg:w-1/4" />
+            :title="$t('skills.software.titleCard')"  />
 
 
         <CardSkills :skills="['Facebook', 'Instagram', 'Linkedin']" :title="$t('skills.socialMedia.titleCard')"
-            class="w-full lg:w-1/4" />
+            />
 
 
         <CardSkills :skills="['Brevo', 'Mailchimp']" :title="$t('skills.newsletter.titleCard')"
-            class="w-full lg:w-1/4" />
+           />
 
         <CardSkills :skills="[$t('skills.languages.english')]" :title="$t('skills.languages.titleCard')"
-            class="w-full lg:w-1/4" />
-
+            />
     </div>
+
+
+
 
     <div class="my-16">
         <hr class="w-1/2 mx-auto my-8 border-[#fed500]">

@@ -1,7 +1,12 @@
 <template>
     <!-- onclick DisplayDetails devient false -->
-    <button @click="DisplayDetails = !DisplayDetails"
+    <!--     <button @click="DisplayDetails = !DisplayDetails"
         class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl mx-12 my-6 md:mx-2 md:my-6 p-2 md:w-5/11 md:max-w-1/3 md:hover:bg-gray-100">
+ -->
+
+    <button @click="DisplayDetails = !DisplayDetails"
+        class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl  p-2 md:hover:bg-gray-100">
+
         <h2 class="text-xl text-center font-bold mb-4 pt-4">{{ title }}</h2>
         <div class="flex flex-col flex-wrap ">
 
@@ -12,7 +17,8 @@
             </div>
         </div>
         <div class="md:hidden">
-            <p :class="['text-xs bg-gray-100', DisplayDetails ? 'block' : 'hidden']">{{ $t("general.clickMoreInfo")}}</p>
+            <p :class="['text-xs bg-gray-100', DisplayDetails ? 'block' : 'hidden']">{{ $t("general.clickMoreInfo") }}
+            </p>
         </div>
     </button>
 
