@@ -1,4 +1,5 @@
 <template>
+    <ScrollToTop />
     <div class="bg-[#800101] text-white">
         <nav class="flex flex-col justify-around text-center text-white bg-[#800101]">
             <NuxtLink to="mailto:thea.fort@gmail.com">thea.fort@gmail.com</NuxtLink>
