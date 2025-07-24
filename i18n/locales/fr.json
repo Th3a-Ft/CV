@@ -8,7 +8,12 @@
         "allFilter": "Tous",
         "clickMoreInfo": "Cliquez pour en savoir plus !",
         "descriptionIndex": "Après plus de 3 ans dans le domaine de la communication, j’ai voulu acquérir de nouvelles compétences techniques en développement web. Mes objectifs ? Elargir mon champ de compétence,gagner en polyvalence et conjuguer créativité et technicité.",
-        "buttonKnowMore": "En savoir plus"
+        "buttonKnowMore": "En savoir plus",
+        "recommendation":"Référence",
+        "btnRecommendation":"Lire la recommandation complète sur LinkedIn",
+        "duration":"Durée du contrat",
+        "aboutCompanyTitle":"A propos de cette structure",
+        "creations":"Réalisations"
     },
     "title": {
         "experiences": "Mes expériences",
@@ -23,19 +28,24 @@
     },
     /* Traduction CardExperience */
     "experiences": {
-        "dtc": {
-            "id": "dtc",
+        "nineteen": {
+            "id": "nineteen",
             "title": "Développeur web",
             "company": "(nineteen)²",
             "date": "juin 2025",
-            "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS"
+            "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
+            "missions":["b","c"],
+            "aboutCompany":"(nineteen)² est une société spécialisée dans le développement d'applications web et mobiles dédiées à l’événementiel sportif. Elle concoit et édite la solution Digital Test Center, destinée aux fabricants, détaillants et organisateurs d’événements proposant des tests produits.",
+            "duration":"Juin 2025 - Stage"
         },
         "pvv": {
             "id": "pvv",
             "title": "Chargé de communication",
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
-            "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter"
+            "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
+            "recommendation":"J'ai eu le plaisir de travailler avec Théa pendant 2 ans. Ce fut une expérience extrêmement positive et enrichissante, tant sur le plan professionnel que personnel. Théa est une personne de confiance, sérieuse et rigoureuse, qui s'investit pleinement dans chaque tâche qu'elle entreprend. Sa capacité à mener à bien ses missions avec un souci du détail et une grande organisation fait d'elle une personne sur qui l'on peut compter."
+
         },
         "epage": {
             "id": "epage",
@@ -125,7 +135,7 @@
             "english": "Anglais - niveau B2 (TOIEC 935)"
         }
     },
-    /*PAge ABout Me*/
+    /*Page ABout Me*/
     "aboutMe": {
         "description": "Après plusieurs années d’expérience dans le domaine de la communication, où j’ai eu l’opportunité d’évoluer dans des secteurs variés — public, privé et associatif — j’ai choisi d’enrichir mes compétences. C’est pourquoi j’ai entrepris la formation de « Développeur avancé » au Campus Numérique in the Alps.",
         "riasec": "Au-delà de mon parcours professionnel, mon profil RIASEC révèle que je suis une personne sociale, méthodique et curieuse. Sociale, car j’apprécie le travail en équipe et la collaboration sur des projets communs. Méthodique, car je me sens à l’aise dans un environnement structuré qui demande rigueur, organisation et précision. Et curieuse, car j’aime apprendre, découvrir et comprendre de nouvelles choses.",

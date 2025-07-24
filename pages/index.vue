@@ -59,11 +59,11 @@
 
         <div class="flex flex-row flex-wrap lg:flex-wrap lg:justify-evenly">
             <CardExperience 
-                :id="$t('experiences.dtc.id')" 
-                :title="$t('experiences.dtc.title')"
-                :company="$t('experiences.dtc.company')" 
-                :date="$t('experiences.dtc.date')"
-                :description="$t('experiences.dtc.description')" 
+                :id="$t('experiences.nineteen.id')" 
+                :title="$t('experiences.nineteen.title')"
+                :company="$t('experiences.nineteen.company')" 
+                :date="$t('experiences.nineteen.date')"
+                :description="$t('experiences.nineteen.description')" 
                 class="w-full lg:w-1/4" />
             <CardExperience 
                 :id="$t('experiences.pvv.id')" 

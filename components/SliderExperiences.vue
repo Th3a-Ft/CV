@@ -5,9 +5,9 @@
     <div class="flex justify-between transition-transform duration-500 w-full"
       :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
 
-      <SlideExperience :id="$t('experiences.dtc.id')" :title="$t('experiences.dtc.title')"
-        :company="$t('experiences.dtc.company')" :date="$t('experiences.dtc.date')"
-        :description="$t('experiences.dtc.description')" />
+      <SlideExperience :id="$t('experiences.nineteen.id')" :title="$t('experiences.nineteen.title')"
+        :company="$t('experiences.nineteen.company')" :date="$t('experiences.nineteen.date')"
+        :description="$t('experiences.nineteen.description')" />
       <SlideExperience :id="$t('experiences.pvv.id')" :title="$t('experiences.pvv.title')"
         :company="$t('experiences.pvv.company')" :date="$t('experiences.pvv.date')"
         :description="$t('experiences.pvv.description')" />
