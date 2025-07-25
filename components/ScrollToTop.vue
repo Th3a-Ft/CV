@@ -2,7 +2,7 @@
     <div ref="scrollTopButton" class="sticky w-full flex justify-end bottom-0 pb-3 pr-5 transition">
         <div>
             <UButton>
-                <NuxtLink :to="{ path: localePath('/'), hash: '#top' }">
+                <NuxtLink :to="{ hash: '#top' }">
                     <img src="public/img/arrow.png"
                         class="w-8 border-4 rounded-full border-black hover:border-[#fed500]">
                 </NuxtLink>

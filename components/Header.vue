@@ -2,7 +2,7 @@
     <div id="top" class="flex flex-col-reverse flex-wrap items-center my-6">
         <h1 class="text-2xl font-bold">Théa Fort</h1>
         <div class="flex justify-center">
-            <img src="~/public/img/thea.jpg" class="rounded-full w-1/3">
+            <NuxtImg src="/img/logo.png" class="w-24"/>
         </div>
     </div>
 
