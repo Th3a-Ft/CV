@@ -12,8 +12,6 @@
         <NuxtLink :to="localePath('/aboutme')">{{ $t("nav.about") }}</NuxtLink>
         <SwitchLocalePathLink locale="fr" v-if="switchLanguage">Français</SwitchLocalePathLink>
         <SwitchLocalePathLink locale="en" v-else>English</SwitchLocalePathLink>
-
-
     </nav>
 
 

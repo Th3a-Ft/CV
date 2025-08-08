@@ -3,10 +3,10 @@
     <div class="grid md:grid-cols-3 gap-4 m-16">
         <div class="border-solid border-gray-300 border-1 rounded-lg md:hover:bg-gray-100 p-4 md:col-span-2 md:row-span-2">
             <h3 class="font-bold pb-4">Missions</h3>
-<!--             <BentoMissions
-            :missions="$t(i18nRoot + '.missions')"
-            />
- -->    </div>
+
+ 
+
+       </div>
         <div class="border-solid border-gray-300 border-1 rounded-lg md:hover:bg-gray-100 p-4 md:row-span-3">
             <h3 class="font-bold pb-4">{{ $t('general.aboutCompanyTitle') }}</h3>
             <p>{{ $t(i18nRoot +'.aboutCompany') }}</p>
@@ -36,13 +36,10 @@
 </template>
 
 <script setup>
-import { ListCheck } from 'lucide-vue-next'
-
 
 const route = useRoute()
 const Experience=route.params.experience
 const i18nRoot = ref("experiences." + Experience)
-
 
 
 </script>
