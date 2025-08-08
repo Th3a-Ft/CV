@@ -13,8 +13,7 @@
     </div>
 
     <div>
-<!--         <div class="flex flex-col-reverse md:flex-row-reverse content-center flex-wrap md:flex-wrap justify-evenly">
- -->        <div class="grid md:grid-cols-3 gap-8 m-16">
+        <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
             <CardPortfolio v-if="['all','development'].includes(tagSelected)"
                 :url="'img/comm.png'" :title="$t('portfolio.development.title')"
