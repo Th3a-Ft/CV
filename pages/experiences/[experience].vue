@@ -28,9 +28,9 @@
     </div>
     <section class="px-16 ">
         <h2 class="mt-8 text-center font-extrabold text-xl">{{$t('general.creations')}}</h2>
-        <div>
+<!--         <div>
             <NuxtImg :src='`/img/realisations/${Experience}/crea1.jpeg`' alt="img1"/>
-        </div>
+        </div> -->
     </section>
     
 </template>
