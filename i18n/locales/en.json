@@ -8,11 +8,11 @@
         "clickMoreInfo": "Click to know more!",
         "descriptionIndex": "After more than 3 years in the communications field, I wanted to acquire new technical skills in web development. My objectives? To broaden my field of competence, gain in versatility and combine creativity and technical skills.",
         "buttonKnowMore": "Find out more",
-        "recommendation":"Recommendation",
-        "btnRecommendation":"Read the full recommendation on LinkedIn",
-        "duration":"Contrat duration",
-        "aboutCompanyTitle":"About this organization",
-        "creations":"Realisations"
+        "recommendation": "Recommendation",
+        "btnRecommendation": "Read the full recommendation on LinkedIn",
+        "duration": "Contrat duration",
+        "aboutCompanyTitle": "About this organization",
+        "creations": "Realisations"
     },
     "title": {
         "experiences": "My experiences",
@@ -32,8 +32,13 @@
             "company": "(nineteen)²",
             "date": "june 2025",
             "description": "Creation of pages on the Digital Test Center website using the Vue.js, Nuxt.js and Tailwind CSS frameworks",
-            "aboutCompany":"(nineteen)² is a company specialising in the development of web and mobile applications dedicated to sporting events. It designs and publishes the Digital Test Centre solution, intended for manufacturers, retailers and event organisers offering product testing.",
-            "duration":"June 2025 - Internship"
+            "aboutCompany": "(nineteen)² is a company specialising in the development of web and mobile applications dedicated to sporting events. It designs and publishes the Digital Test Centre solution, intended for manufacturers, retailers and event organisers offering product testing.",
+            "missions": {
+                "mission1": "Designing a landing page to showcase the usefulness of the Digital Test Center application for ski testing events.",
+                "mission2": "Creating a landing page using the Vue.js and Nuxt frameworks",
+                "mission3": "Adapt the code so that the landing page highlights bike test events using the same elements."
+            },
+            "duration": "June 2025 - Internship"
         },
         "pvv": {
             "id": "pvv",
@@ -41,7 +46,13 @@
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
             "description": "Overall communication for club events (social networks, posters, flyers, etc.), creating content for the club's social networks, managing and sending out the newsletter",
-            "recommendation":"I had the pleasure of working with Théa for 2 years. It was an extremely positive and rewarding experience, both professionally and personally. Théa is a trustworthy, serious and rigorous person, who invests herself fully in every task she undertakes. Her ability to carry out assignments with great attention to detail and organization makes her a person you can rely on."
+            "missions": {
+                "mission1": "Create and send the club's monthly newsletter,",
+                "mission2": "Concevoir une landing page en utilisant les frameworks Vue.js et Nuxt",
+                "mission3": "Produce various communication materials (flyers, posters)",
+            },
+            "aboutCompany": "Pays Voironnais Volley (PVV) is one of the largest volleyball clubs in the Auvergne Rhône-Alpes region. The club promotes volleyball for all and includes a sitting volleyball team and a Fitvolley team among its many teams.",
+            "duration": "Since september 2023 - Freelance"
         },
         "epage": {
             "id": "epage",
