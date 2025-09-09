@@ -27,9 +27,9 @@
 
     </div>
     <section class="px-16 ">
-        <h2 class="mt-8 text-center font-extrabold text-xl">{{ $t('general.creations') }}</h2>
+        <h2 class="mt-8 text-center font-extrabold text-xl">{{$t('general.creations')}}</h2>
         <div>
-            <NuxtImg :src='`/img/realisations/${Experience}/crea1.png`' alt="img1" />
+            <NuxtImg :src='`/img/realisations/${Experience}/crea1.jpeg`' alt="img1"/>
         </div>
     </section>
 
@@ -40,7 +40,6 @@
 const route = useRoute()
 const Experience = route.params.experience
 const i18nRoot = ref("experiences." + Experience)
-
 
 
 

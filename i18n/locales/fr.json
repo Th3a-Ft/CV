@@ -34,13 +34,9 @@
             "company": "(nineteen)²",
             "date": "juin 2025",
             "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
-            "missions": {
-                "mission1": "Maquettage d'une landing page afin de présenter l'utilité de l'applicaton Digital Test Center sur les événements de tests skis",
-                "mission2": "Concevoir une landing page en utilisant les frameworks Vue.js et Nuxt",
-                "mission3": "Adapter le code pour que la langing page mette en avant les événements de tests vélos en reprenant les mêmes éléments"
-            },
-            "aboutCompany": "(nineteen)² est une société spécialisée dans le développement d'applications web et mobiles dédiées à l’événementiel sportif. Elle concoit et édite la solution Digital Test Center, destinée aux fabricants, détaillants et organisateurs d’événements proposant des tests produits.",
-            "duration": "Juin 2025 - Stage"
+            "missions":["b","c"],
+            "aboutCompany":"(nineteen)² est une société spécialisée dans le développement d'applications web et mobiles dédiées à l’événementiel sportif. Elle concoit et édite la solution Digital Test Center, destinée aux fabricants, détaillants et organisateurs d’événements proposant des tests produits.",
+            "duration":"Juin 2025 - Stage"
         },
         "pvv": {
             "id": "pvv",
@@ -48,13 +44,8 @@
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
             "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
-            "missions": {
-                "mission1": "Communiquer quotidiennement sur les réseaux sociaux",
-                "mission2": "Créer et envoyer la newsletter mensuelle du club",
-                "mission3": "Réaliser des supports de communication divers (flyers, affiches)",
-            },
-            "aboutCompany": "Le Pays Voironnais Volley (PVV) est l'un des plus gros club de volley de la région Auvergne Rhône-Alpes. Le club milite pour le volley pour tous et compte parmi toutes ses équipes, une équipes de volley assis ainsi qu'une équipe de Fit volley.",
-            "duration": "Depuis septembre 2023 - Freelance"
+            "recommendation":"J'ai eu le plaisir de travailler avec Théa pendant 2 ans. Ce fut une expérience extrêmement positive et enrichissante, tant sur le plan professionnel que personnel. Théa est une personne de confiance, sérieuse et rigoureuse, qui s'investit pleinement dans chaque tâche qu'elle entreprend. Sa capacité à mener à bien ses missions avec un souci du détail et une grande organisation fait d'elle une personne sur qui l'on peut compter."
+
         },
         "epage": {
             "id": "epage",
