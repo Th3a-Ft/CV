@@ -1,7 +1,7 @@
 <template>
     <!-- onclick DisplayDetails devient false -->
     <button @click="DisplayDetails = !DisplayDetails"
-        class="border-solid border-gray-300 border-1 rounded-lg flex flex-col flex-nowrap p-4 hover:bg-[#800101]/50 bg-[url(public/img/comm.png)]">
+        class="border-solid border-gray-300 border-1 rounded-lg flex flex-col flex-nowrap p-4 hover:bg-[#800101]/25" :style="{ backgroundImage: `url(${url})` }">
         <div class="my-auto">
             <h2 class="text-xl text-center font-bold my-4">{{ title }}</h2>
             <div class="flex flex-col flex-wrap my-4 lg:m-8 my-auto">

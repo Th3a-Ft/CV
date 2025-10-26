@@ -33,8 +33,8 @@
             "company": "(nineteen)²",
             "date": "june 2025",
             "description": "Creation of pages on the Digital Test Center website using the Vue.js, Nuxt.js and Tailwind CSS frameworks",
-            "aboutCompany":"(nineteen)² is a company specialising in the development of web and mobile applications dedicated to sporting events. It designs and publishes the Digital Test Centre solution, intended for manufacturers, retailers and event organisers offering product testing.",
-            "duration":"June 2025 - Internship"
+            "aboutCompany": "(nineteen)² is a company specialising in the development of web and mobile applications dedicated to sporting events. It designs and publishes the Digital Test Centre solution, intended for manufacturers, retailers and event organisers offering product testing.",
+            "duration": "June 2025 - Internship"
         },
         "pvv": {
             "id": "pvv",
@@ -42,7 +42,7 @@
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
             "description": "Overall communication for club events (social networks, posters, flyers, etc.), creating content for the club's social networks, managing and sending out the newsletter",
-            "recommendation":"I had the pleasure of working with Théa for 2 years. It was an extremely positive and rewarding experience, both professionally and personally. Théa is a trustworthy, serious and rigorous person, who invests herself fully in every task she undertakes. Her ability to carry out assignments with great attention to detail and organization makes her a person you can rely on."
+            "recommendation": "I had the pleasure of working with Théa for 2 years. It was an extremely positive and rewarding experience, both professionally and personally. Théa is a trustworthy, serious and rigorous person, who invests herself fully in every task she undertakes. Her ability to carry out assignments with great attention to detail and organization makes her a person you can rely on."
         },
         "epage": {
             "id": "epage",
@@ -86,10 +86,12 @@
         },
         "graphic": {
             "url": "~/public/img/comm.png",
-            "title": "Graphic design",
-            "description": "Production of graphic media such as flyers and posters, from conception to completion, ensuring that a clear, impactful message is conveyed. Each creation is designed to respect the client's visual identity and adapt to the context of distribution (print or digital)."
+            "title": "Design of communication materials",
+            "description": "Graphic design of a banner and tarpaulin in the colours of GUC Grenoble Ski.",
+            "creativity": "Creativity",
+            "responsiveness": "Responsiveness"
         },
-        "newsletter": {
+        "socialMedia": {
             "url": "~/public/img/comm.png",
             "title": "Newsletter management",
             "description": "Designing, writing and sending newsletters in line with the editorial line and communication objectives. This includes creating visuals, structuring content, optimising design for all media (responsive), and analysing performance (open rates, clicks, etc.)."
@@ -99,10 +101,10 @@
             "description": "Layout, design and development of a landing page for the Digital Test Centre website"
         },
         "tags": {
-            "dev":"Web development",
-            "socialMedia":"Social media",
-            "event":"Event management",
-            "graphic":"Graphc design"
+            "dev": "Web development",
+            "socialMedia": "Social media",
+            "event": "Event management",
+            "graphic": "Graphc design"
         }
     },
     /*Trad CardSkills*/
@@ -110,7 +112,6 @@
         "titleSection": "My skills",
         "dev": {
             "titleCard": "Developing with and without frameworks",
-
         },
         "nocode": {
             "titleCard": "Creating websites (nocode)"
@@ -120,14 +121,14 @@
         },
         "collaborate": {
             "titleCard": "Collaborating on projects",
-            "agile":"Agile Method (Scrum)",
-            "project":"Project management"
+            "agile": "Agile Method (Scrum)",
+            "project": "Project management"
         },
         "other": {
             "titleCard": "Other skills",
-            "socialmedia":"Managing social media",
-            "event":"Organising events",
-            "rp":"Press relations"
+            "socialmedia": "Managing social media",
+            "event": "Organising events",
+            "rp": "Press relations"
         },
         "languages": {
             "titleCard": "Spoken Language",

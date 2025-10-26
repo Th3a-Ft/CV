@@ -18,7 +18,7 @@
         <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
             <CardPortfolio v-if="['all','development'].includes(tagSelected)"
-                :url="'img/comm.png'"
+                :url="'/'"
                 :title="'Digital Test Center'"
                 :description="$t('portfolio.dtc.description')"
                 :skills="['Javascript - Vue.js / Nuxt','Figma']"
@@ -26,18 +26,22 @@
                 class="row-span-2"/>
 
             <CardPortfolio v-if="['all', 'graphisme', 'evenementiel'].includes(tagSelected)"
-                :url="'img/comm.png'" 
+                :url="'/'" 
                 :title="$t('portfolio.social.title')"
-                :description="$t('portfolio.social.description')"  />
+                :description="$t('portfolio.social.description')"
+                :skills="['Planification','Graphisme','Canva']"
+
+                />
                 
             <CardPortfolio v-if="['all','graphisme', 'evenementiel'].includes(tagSelected)"
-                :url="'img/comm.png'" 
+                :url="'/'" 
                 :title="$t('portfolio.graphic.title')"
-                :description="$t('portfolio.graphic.description')" 
+                :description="$t('portfolio.graphic.description')"
+                :skills="[$t('portfolio.graphic.creativity'), $t('portfolio.graphic.responsiveness'),'Inkscape', 'Scribus']"
                 :filterProps="TagFiltered" />
 
             <CardPortfolio v-if="['all','graphisme'].includes(tagSelected)"
-                :url="'img/comm.png'" 
+                :url="'/'" 
                 :title="$t('portfolio.newsletter.title')"
                 :description="$t('portfolio.newsletter.description')"  />
         </div>

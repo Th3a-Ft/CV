@@ -87,12 +87,14 @@
         "social": {
             "url": "~/public/img/comm.png",
             "title": "Animation des réseaux sociaux",
-            "description": "Gestion quotidienne des comptes Facebook, Instagram et LinkedIn : planification et publication de contenus, animation des communautés, modération des commentaires et messages privés. Création de visuels attractifs, rédaction de textes adaptés à chaque plateforme, et suivi des performances via des outils d’analyse. Objectif : développer la notoriété de la marque, renforcer l’engagement et soutenir les objectifs marketing."
+            "description": "Création, publication, suivi des contenus sur les réseaux sociaux (Facebook, Instagram, Linkedin)"
         },
         "graphic": {
             "url": "~/public/img/comm.png",
-            "title": "Création graphique",
-            "description": "Réalisation de supports graphiques tels que flyers et affiches, depuis la conception jusqu’à la finalisation, en veillant à transmettre un message clair et impactant. Chaque création est pensée pour respecter l'identité visuelle du client et s’adapter au contexte de diffusion (print ou digital)."
+            "title": "Design de supports de communication",
+            "description": "Création graphique d'oriflamme et d'une bâche aux couleurs du GUC Grenoble Ski",
+            "creativity":"Créativité",
+            "responsiveness":"Réactivité"
         },
         "newsletter": {
             "url": "~/public/img/comm.png",
