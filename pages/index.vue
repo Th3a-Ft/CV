@@ -21,34 +21,29 @@
     <h2 class="text-center font-bold text-xl" id="skills">{{ $t('skills.titleSection') }}</h2>
     <div class="flex flex-row flex-wrap lg:flex-wrap lg:justify-evenly">
         <CardSkills
-            :skills="[$t('skills.dev.languages'), $t('skills.dev.algorithm'), $t('skills.dev.agile'), 'PHP (Laravel)', 'Git']"
+            :skills="['Javascript - Vue.js & Nuxt', 'Java - Spring Boot', 'PHP - Laravel', 'Python', 'HTML & CSS']"
             :title="$t('skills.dev.titleCard')" 
             class="w-full lg:w-1/4" />
-
+        <CardSkills 
+            :skills="['Git & GitHub',$t('skills.collaborate.agile'),$t('skills.collaborate.project') ]" 
+            :title="$t('skills.collaborate.titleCard')"
+            class="w-full lg:w-1/4" />
+        <CardSkills 
+            :skills="['Test Driven Devlopment', 'Pytest']"
+            :title="$t('skills.test.titleCard')" 
+            class="w-full lg:w-1/4" />
         <CardSkills 
             :skills="['Wordpress', 'Webself']" 
             :title="$t('skills.nocode.titleCard')" 
             class="w-full lg:w-1/4" />
-
-        <CardSkills 
-            :skills="['Canva', 'Photoshop', 'Illustrator', 'Inkscape', 'Capcut']"
-            :title="$t('skills.software.titleCard')" 
-            class="w-full lg:w-1/4" />
-
-
-        <CardSkills 
-            :skills="['Facebook', 'Instagram', 'Linkedin']" 
-            :title="$t('skills.socialMedia.titleCard')"
-            class="w-full lg:w-1/4" />
-
-
-        <CardSkills 
-            :skills="['Brevo', 'Mailchimp']" 
-            :title="$t('skills.newsletter.titleCard')"
-            class="w-full lg:w-1/4" />
-
         <CardSkills :skills="[$t('skills.languages.english')]" :title="$t('skills.languages.titleCard')"
             class="w-full lg:w-1/4" />
+        <CardSkills 
+            :skills="[$t('skills.other.socialmedia'), $t('skills.other.event'),$t('skills.other.rp')]" 
+            :title="$t('skills.other.titleCard')"
+            class="w-full lg:w-1/4" />
+
+
 
     </div>
 
@@ -91,20 +86,25 @@
                 :title="$t('trainings.campus.title')" 
                 :school="$t('trainings.campus.school')"
                 :date="$t('trainings.campus.date')" 
-                :url="$t('trainings.campus.url')" 
+                :url="'https://le-campus-numerique.fr/formations-developpeur2/'" 
                 class="w-full lg:w-1/4" />
             <CardTraining 
                 :title="$t('trainings.master.title')" 
                 :school="$t('trainings.master.school')"
-                :date="$t('trainings.master.date')" 
-                :url="$t('trainings.master.url')" 
+                :date="'2020 - 2022'" 
+                :url="'https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html'" 
                 class="w-full lg:w-1/4" />
-
+            <CardTraining 
+                :title="$t('trainings.licence.title')" 
+                :school="$t('trainings.licence.school')"
+                :date="'2019 - 2020'" 
+                :url="'https://www.isthia.fr/formation/licence-professionnelle-ddtecet/'" 
+                class="w-full lg:w-1/4" />
             <CardTraining 
                 :title="$t('trainings.dut.title')" 
                 :school="$t('trainings.dut.school')"
-                :date="$t('trainings.dut.date')" 
-                :url="$t('trainings.dut.url')" 
+                :date="'2017 - 2019'" 
+                :url="'https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html'" 
                 class="w-full lg:w-1/4" />
 
         </div>

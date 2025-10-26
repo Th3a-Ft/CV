@@ -6,9 +6,11 @@
         <br>
         <select class="md-w-1/3 border-solid border-gray-150 border-1 rounded-lg pl-4" id="ExperienceSelector" v-model="tagSelected">
             <option value="all">{{ $t("general.allFilter") }}</option>
-            <option value="development">(nineteen)²</option>
-            <option value="graphisme">Pays Voironnais Volley</option>
-            <option value="evenementiel">Epage de la Bourbre</option>
+            <option value="development">{{ $t("portfolio.tags.dev") }}</option>
+            <option value="graphisme">{{ $t("portfolio.tags.graphic") }}</option>
+            <option value="socialMedia">{{ $t("portfolio.tags.socialMedia") }}</option>
+            <option value="evenementiel">{{ $t("portfolio.tags.event") }}</option>
+
         </select>
     </div>
 
@@ -16,8 +18,10 @@
         <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
             <CardPortfolio v-if="['all','development'].includes(tagSelected)"
-                :url="'img/comm.png'" :title="$t('portfolio.development.title')"
-                :description="$t('portfolio.development.description')" 
+                :url="'img/comm.png'"
+                :title="'Digital Test Center'"
+                :description="$t('portfolio.dtc.description')"
+                :skills="['Javascript - Vue.js / Nuxt','Figma']"
                 :filterProps="TagFiltered" 
                 class="row-span-2"/>
 
@@ -25,11 +29,13 @@
                 :url="'img/comm.png'" 
                 :title="$t('portfolio.social.title')"
                 :description="$t('portfolio.social.description')"  />
+                
             <CardPortfolio v-if="['all','graphisme', 'evenementiel'].includes(tagSelected)"
                 :url="'img/comm.png'" 
                 :title="$t('portfolio.graphic.title')"
                 :description="$t('portfolio.graphic.description')" 
                 :filterProps="TagFiltered" />
+
             <CardPortfolio v-if="['all','graphisme'].includes(tagSelected)"
                 :url="'img/comm.png'" 
                 :title="$t('portfolio.newsletter.title')"
@@ -62,10 +68,4 @@ const TagFiltered = computed(() => {
 
 
 
-
-
-/* const comm = ref(false)
-const dev = ref(false)
-const curious = ref(false)
- */
 </script>

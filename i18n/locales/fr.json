@@ -7,13 +7,14 @@
         "filter": "Filtrer selon les expériences  ",
         "allFilter": "Tous",
         "clickMoreInfo": "Cliquez pour en savoir plus !",
-        "descriptionIndex": "Après plus de 3 ans dans le domaine de la communication, j’ai voulu acquérir de nouvelles compétences techniques en développement web. Mes objectifs ? Elargir mon champ de compétence,gagner en polyvalence et conjuguer créativité et technicité.",
+        "descriptionIndex": "Développeuse web en reconversion après 3 ans dans la communication, je combine créativité, gestion de projet et compétences techniques (Vue.js, Laravel, Java). Mon objectif : concevoir des solutions web polyvalentes et innovantes, alliant technicité et sens de l’utilisateur.",
         "buttonKnowMore": "En savoir plus",
         "recommendation": "Référence",
         "btnRecommendation": "Lire la recommandation complète sur LinkedIn",
         "duration": "Durée du contrat",
         "aboutCompanyTitle": "A propos de cette structure",
-        "creations": "Réalisations"
+        "creations": "Réalisations",
+        "skillsPortfolio": "Compétences utilisées & développées"
     },
     "title": {
         "experiences": "Mes expériences",
@@ -34,9 +35,12 @@
             "company": "(nineteen)²",
             "date": "juin 2025",
             "description": "Création de pages sur le site de Digital Test Center en utilisant les frameworks Vue.js, Nuxt.js et Tailwind CSS",
-            "missions":["b","c"],
-            "aboutCompany":"(nineteen)² est une société spécialisée dans le développement d'applications web et mobiles dédiées à l’événementiel sportif. Elle concoit et édite la solution Digital Test Center, destinée aux fabricants, détaillants et organisateurs d’événements proposant des tests produits.",
-            "duration":"Juin 2025 - Stage"
+            "missions": [
+                "b",
+                "c"
+            ],
+            "aboutCompany": "(nineteen)² est une société spécialisée dans le développement d'applications web et mobiles dédiées à l’événementiel sportif. Elle concoit et édite la solution Digital Test Center, destinée aux fabricants, détaillants et organisateurs d’événements proposant des tests produits.",
+            "duration": "Juin 2025 - Stage"
         },
         "pvv": {
             "id": "pvv",
@@ -44,8 +48,7 @@
             "company": "Pays Voironnais Volley",
             "date": "2023-2025",
             "description": "Communication globale pour les événements du club (réseaux sociaux, affiches, flyers, etc), création de contenus pour les réseaux sociaux du club, gestion et envoi de la newsletter",
-            "recommendation":"J'ai eu le plaisir de travailler avec Théa pendant 2 ans. Ce fut une expérience extrêmement positive et enrichissante, tant sur le plan professionnel que personnel. Théa est une personne de confiance, sérieuse et rigoureuse, qui s'investit pleinement dans chaque tâche qu'elle entreprend. Sa capacité à mener à bien ses missions avec un souci du détail et une grande organisation fait d'elle une personne sur qui l'on peut compter."
-
+            "recommendation": "J'ai eu le plaisir de travailler avec Théa pendant 2 ans. Ce fut une expérience extrêmement positive et enrichissante, tant sur le plan professionnel que personnel. Théa est une personne de confiance, sérieuse et rigoureuse, qui s'investit pleinement dans chaque tâche qu'elle entreprend. Sa capacité à mener à bien ses missions avec un souci du détail et une grande organisation fait d'elle une personne sur qui l'on peut compter."
         },
         "epage": {
             "id": "epage",
@@ -59,31 +62,24 @@
     "trainings": {
         "campus": {
             "id": 1,
-            "title": "Développeur web",
+            "title": "Développeur Concepteur d'Applications",
             "school": "Campus Numérique in the Alp",
-            "date": "En cours",
-            "url": "https://le-campus-numerique.fr/formations-developpeur2/"
+            "date": "En cours"
         },
         "master": {
             "id": 2,
             "title": "Master Information Communication Publique et Médias",
-            "school": "Université Grenoble Alpes",
-            "date": "2020-2022",
-            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html"
+            "school": "Université Grenoble Alpes"
         },
         "licence": {
             "id": 3,
             "title": "Licence professionnelle Développement Durable des Territoire par l'e-Commerce et l'e-Tourisme",
-            "school": "Université Toulouse Jean Jaurès",
-            "date": "2019-2020",
-            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/"
+            "school": "Université Toulouse Jean Jaurès"
         },
         "dut": {
             "id": 4,
             "title": "DUT Gestion Administrative et Commerciale des Organisations",
-            "school": "IUT de St-Etienne",
-            "date": "2017-2019",
-            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html"
+            "school": "IUT de St-Etienne"
         }
     },
     /* Traduction Portofolio */
@@ -103,29 +99,39 @@
             "title": "Gestion de newsletters",
             "description": "Conception, rédaction et envoi de newsletters dans le respect de la ligne éditoriale et des objectifs de communication. Cela inclut la création de visuels, la structuration des contenus, l’optimisation du design pour tous les supports (responsive), ainsi que l’analyse des performances (taux d’ouverture, clics, etc.)."
         },
-        "development": {
+        "dtc": {
             "url": "~/public/img/comm.png",
-            "title": "Dévelopeur web",
-            "description": "Conception et développement de sites web, aussi bien via des CMS comme WordPress que par du développement sur-mesure en code pur (HTML, CSS, JavaScript, PHP…). Capacité à adapter les solutions techniques aux besoins du projet, tout en garantissant performance, responsivité et bonne expérience utilisateur."
+            "description": "Maquettage, conception et développement d'une landing page pour le site de Digital Test Center",
+        },
+        "tags": {
+            "dev":"Développement web",
+            "socialMedia":"Réseaux sociaux",
+            "event":"Evénementiel",
+            "graphic":"Graphisme"
         }
     },
     /*Trad CardSkills*/
     "skills": {
         "titleSection": "Mes compétences",
         "dev": {
-            "titleCard": "Développer des logiciels & applications",
-            "languages": "Langages web : HTML, CSS (Bootstrap & Tailwind CSS), JS (Vue.js & Nuxt)",
-            "algorithm": "Algorithmie",
-            "agile": "Méthode Agile"
+            "titleCard": "Développer avec et sans frameworks"
+        },
+        "test": {
+            "titleCard": "Tester ses projets"
         },
         "nocode": {
             "titleCard": "Créer des sites internet (nocode)"
         },
-        "socialMedia": {
-            "titleCard": "Animer les réseaux sociaux"
+        "collaborate": {
+            "titleCard": "Collaborer sur des projets",
+            "agile": "Méthode Agile (Scrum)",
+            "project": "Gestion de projets"
         },
-        "software": {
-            "titleCard": "Concevoir des visuels & vidéos"
+        "other": {
+            "titleCard": "Autres compétences",
+            "socialmedia": "Animer les réseaux sociaux",
+            "event": "Organiser des événements",
+            "rp": "Relation presses"
         },
         "newsletter": {
             "titleCard": "Créer & envoyer des newsletters"
@@ -135,7 +141,7 @@
             "english": "Anglais - niveau B2 (TOIEC 935)"
         }
     },
-    /*Page ABout Me*/
+    /*Page About Me*/
     "aboutMe": {
         "description": "Après plusieurs années d’expérience dans le domaine de la communication, où j’ai eu l’opportunité d’évoluer dans des secteurs variés — public, privé et associatif — j’ai choisi d’enrichir mes compétences. C’est pourquoi j’ai entrepris la formation de « Développeur avancé » au Campus Numérique in the Alps.",
         "riasec": "Au-delà de mon parcours professionnel, mon profil RIASEC révèle que je suis une personne sociale, méthodique et curieuse. Sociale, car j’apprécie le travail en équipe et la collaboration sur des projets communs. Méthodique, car je me sens à l’aise dans un environnement structuré qui demande rigueur, organisation et précision. Et curieuse, car j’aime apprendre, découvrir et comprendre de nouvelles choses.",

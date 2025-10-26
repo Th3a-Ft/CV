@@ -6,13 +6,14 @@
         "filter": "Filter by experience  ",
         "allFilter": "All",
         "clickMoreInfo": "Click to know more!",
-        "descriptionIndex": "After more than 3 years in the communications field, I wanted to acquire new technical skills in web development. My objectives? To broaden my field of competence, gain in versatility and combine creativity and technical skills.",
+        "descriptionIndex": "A web developer retraining after three years in communications, I combine creativity, project management and technical skills (Vue.js, Laravel, Java). My goal: to design versatile and innovative web solutions that combine technical expertise with user-friendliness.",
         "buttonKnowMore": "Find out more",
         "recommendation": "Recommendation",
         "btnRecommendation": "Read the full recommendation on LinkedIn",
         "duration": "Contrat duration",
         "aboutCompanyTitle": "About this organization",
-        "creations": "Realisations"
+        "creations": "Realisations",
+        "skillsPortfolio": "Skills used and develop"
     },
     "title": {
         "experiences": "My experiences",
@@ -57,29 +58,22 @@
             "id": 1,
             "title": "Web Developer",
             "school": "Campus Numérique in the Alp",
-            "date": "In progress",
-            "url": "https://le-campus-numerique.fr/formations-developpeur2/"
+            "date": "In progress"
         },
         "master": {
             "id": 2,
             "title": "Masters in Information, Public Communication and the Media",
-            "school": "Grenoble Alpes University",
-            "date": "2020-2022",
-            "url": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/master-XB/master-information-communication-IBC8S6FT/parcours-information-communication-publique-et-medias-IBC8V4V7.html"
+            "school": "Grenoble Alpes University"
         },
         "licence": {
             "id": 3,
             "title": "Professional degree in Sustainable Development of Territories through e-Commerce and e-Tourism",
-            "school": "Toulouse Jean Jaurès University",
-            "date": "2019-2020",
-            "url": "https://www.isthia.fr/formation/licence-professionnelle-ddtecet/"
+            "school": "Toulouse Jean Jaurès University"
         },
         "dut": {
             "id": 4,
             "title": "Associate's Degree in Administrative and Commercial Management of Organisations",
-            "school": "IUT de St-Etienne",
-            "date": "2017-2019",
-            "url": "https://www.iut.univ-st-etienne.fr/fr/etudier-a-l-iut-de-saint-etienne/nos-formations/les-b-u-t/b-u-t-gestion-administrative-et-commerciale-des-organisations.html"
+            "school": "IUT de St-Etienne"
         }
     },
     /* Trad Portofolio */
@@ -100,37 +94,40 @@
             "title": "Newsletter management",
             "description": "Designing, writing and sending newsletters in line with the editorial line and communication objectives. This includes creating visuals, structuring content, optimising design for all media (responsive), and analysing performance (open rates, clicks, etc.)."
         },
-        "development": {
+        "dtc": {
             "url": "~/public/img/comm.png",
-            "title": "Web Developer",
-            "description": "Design and development of websites, both via CMS such as WordPress and through bespoke development in pure code (HTML, CSS, JavaScript, PHP, etc.). Ability to adapt technical solutions to the needs of the project, while guaranteeing performance, responsiveness and a good user experience."
+            "description": "Layout, design and development of a landing page for the Digital Test Centre website"
         },
-        "tags": [
-            "(nineteen)²",
-            "Pays Voironnais Volley",
-            "Epage de la Bourbre"
-        ]
+        "tags": {
+            "dev":"Web development",
+            "socialMedia":"Social media",
+            "event":"Event management",
+            "graphic":"Graphc design"
+        }
     },
     /*Trad CardSkills*/
     "skills": {
         "titleSection": "My skills",
         "dev": {
-            "titleCard": "Developing software and applications",
-            "languages": "Web languages: HTML, CSS (Bootstrap & Tailwind CSS), JS (Vue.js & Nuxt)",
-            "algorithm": "Algorithmic",
-            "agile": "Agile Method"
+            "titleCard": "Developing with and without frameworks",
+
         },
         "nocode": {
             "titleCard": "Creating websites (nocode)"
         },
-        "socialMedia": {
-            "titleCard": "Managing social networks"
+        "test": {
+            "titleCard": "Testing projects"
         },
-        "software": {
-            "titleCard": "Designing visuals and videos"
+        "collaborate": {
+            "titleCard": "Collaborating on projects",
+            "agile":"Agile Method (Scrum)",
+            "project":"Project management"
         },
-        "newsletter": {
-            "titleCard": "Creating & sending newsletters"
+        "other": {
+            "titleCard": "Other skills",
+            "socialmedia":"Managing social media",
+            "event":"Organising events",
+            "rp":"Press relations"
         },
         "languages": {
             "titleCard": "Spoken Language",
