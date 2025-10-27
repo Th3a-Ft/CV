@@ -13,7 +13,7 @@
         "duration": "Contrat duration",
         "aboutCompanyTitle": "About this organization",
         "creations": "Realisations",
-        "skillsPortfolio": "Skills used and develop"
+        "skillsPortfolio": "Skills used & developed"
     },
     "title": {
         "experiences": "My experiences",
@@ -98,6 +98,7 @@
         },
         "dtc": {
             "url": "~/public/img/comm.png",
+            "title":"Landing page creation",
             "description": "Layout, design and development of a landing page for the Digital Test Centre website"
         },
         "tags": {

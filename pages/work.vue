@@ -19,7 +19,7 @@
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
             <CardPortfolio v-if="['all','development'].includes(tagSelected)"
                 :url="'/'"
-                :title="'Digital Test Center'"
+                :title="$t('portfolio.dtc.title')"
                 :description="$t('portfolio.dtc.description')"
                 :skills="['Javascript - Vue.js / Nuxt','Figma']"
                 :filterProps="TagFiltered" 
@@ -30,7 +30,6 @@
                 :title="$t('portfolio.social.title')"
                 :description="$t('portfolio.social.description')"
                 :skills="['Planification','Graphisme','Canva']"
-
                 />
                 
             <CardPortfolio v-if="['all','graphisme', 'evenementiel'].includes(tagSelected)"

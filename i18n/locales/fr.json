@@ -103,7 +103,8 @@
         },
         "dtc": {
             "url": "~/public/img/comm.png",
-            "description": "Maquettage, conception et développement d'une landing page pour le site de Digital Test Center",
+            "title": "Création de landing page",
+            "description": "Maquettage, conception et développement d'une landing page pour le site de Digital Test Center.",
         },
         "tags": {
             "dev":"Développement web",
