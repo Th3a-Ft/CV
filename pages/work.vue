@@ -18,7 +18,7 @@
         <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
             <CardPortfolio v-if="['all','development'].includes(tagSelected)"
-                :url="'/'"
+                :url="'/img/landing_page.png'"
                 :title="$t('portfolio.dtc.title')"
                 :description="$t('portfolio.dtc.description')"
                 :skills="['Javascript - Vue.js / Nuxt','Figma']"
