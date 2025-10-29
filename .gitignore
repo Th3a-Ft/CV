@@ -26,3 +26,5 @@ logs
 # Pages
 **/pages/test.vue
 **/pages/test2.vue
+
+**/components/Header2.vue

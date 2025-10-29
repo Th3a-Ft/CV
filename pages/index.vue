@@ -6,13 +6,13 @@
         </div>
         <div class="flex flex-col w-1/2 mx-auto md:flex-row justify-evenly">
             <NuxtLink :to="{ path: localePath('/'), hash: '#skills' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-full px-6 py-2 m-2 text-center">
+                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
                 {{ $t('skills.titleSection') }}</NuxtLink>
             <NuxtLink :to="{ path: localePath('/'), hash: '#experiences' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-full px-6 py-2 m-2 text-center">
+                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
                 {{ $t('title.experiences') }}</NuxtLink>
             <NuxtLink :to="{ path: localePath('/'), hash: '#trainings' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-full px-6 py-2 m-2 text-center">
+                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
                 {{ $t('title.trainings') }}</NuxtLink>
 
 

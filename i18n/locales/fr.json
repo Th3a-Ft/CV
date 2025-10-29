@@ -85,32 +85,37 @@
     /* Traduction Portofolio */
     "portfolio": {
         "social": {
-            "url": "~/public/img/comm.png",
             "title": "Animation des réseaux sociaux",
             "description": "Création, publication, suivi des contenus sur les réseaux sociaux (Facebook, Instagram, Linkedin)"
         },
         "graphic": {
-            "url": "~/public/img/comm.png",
             "title": "Design de supports de communication",
             "description": "Création graphique d'oriflamme et d'une bâche aux couleurs du GUC Grenoble Ski",
-            "creativity":"Créativité",
-            "responsiveness":"Réactivité"
+            "creativity": "Créativité",
+            "responsiveness": "Réactivité"
         },
-        "newsletter": {
-            "url": "~/public/img/comm.png",
-            "title": "Gestion de newsletters",
-            "description": "Conception, rédaction et envoi de newsletters dans le respect de la ligne éditoriale et des objectifs de communication. Cela inclut la création de visuels, la structuration des contenus, l’optimisation du design pour tous les supports (responsive), ainsi que l’analyse des performances (taux d’ouverture, clics, etc.)."
+        "quaterlyBulletin": {
+            "title": "Elaboration d'une lettre trimestrielle communale",
+            "description": "Maquettage d'un bulletin type, mise en page des éléments (textes & images).",
+            "interactionConcillor": "Echanges avec les élus",
+            "creativity": "Créativité",
+            "responsiveness": "Réactivité"
         },
         "dtc": {
-            "url": "~/public/img/comm.png",
-            "title": "Création de landing page",
-            "description": "Maquettage, conception et développement d'une landing page pour le site de Digital Test Center.",
+            "title": "Création d'une landing page",
+            "description": "Maquettage, conception et développement d'une landing page pour le site de Digital Test Center."
+        },
+        "event": {
+            "title": "Coordination & organisation d'événements",
+            "description": "Organisation d'inaugurations officielles et d'événements sportifs, communication avec, pendant et après les manifestations",
+            "coordinator": "Coordination avec les élus, et parties prenantes",
+            "logistic": "Organisation logistique"
         },
         "tags": {
-            "dev":"Développement web",
-            "socialMedia":"Réseaux sociaux",
-            "event":"Evénementiel",
-            "graphic":"Graphisme"
+            "dev": "Développement web",
+            "socialMedia": "Réseaux sociaux",
+            "event": "Evénementiel",
+            "graphic": "Graphisme"
         }
     },
     /*Trad CardSkills*/

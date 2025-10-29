@@ -80,26 +80,31 @@
     "portfolio": {
         "title": "You are ?",
         "social": {
-            "url": "~/public/img/comm.png",
             "title": "Social Media Manager",
             "description": "Day-to-day management of the Facebook, Instagram and LinkedIn accounts: planning and publishing content, animating communities, moderating comments and private messages. Creating attractive visuals, writing texts adapted to each platform, and monitoring performance using analysis tools. Objective: to develop brand awareness, boost engagement and support marketing objectives."
         },
         "graphic": {
-            "url": "~/public/img/comm.png",
             "title": "Design of communication materials",
             "description": "Graphic design of a banner and tarpaulin in the colours of GUC Grenoble Ski.",
             "creativity": "Creativity",
             "responsiveness": "Responsiveness"
         },
-        "socialMedia": {
-            "url": "~/public/img/comm.png",
-            "title": "Newsletter management",
-            "description": "Designing, writing and sending newsletters in line with the editorial line and communication objectives. This includes creating visuals, structuring content, optimising design for all media (responsive), and analysing performance (open rates, clicks, etc.)."
+        "quaterlyBulletin": {
+            "title": "Preparation of a quarterly municipal newsletter",
+            "description": "Layout of a sample newsletter, formatting of elements (text & images).",
+            "interactionConcillor": "Discussions with elected officials",
+            "creativity": "Creativity",
+            "responsiveness": "Responsiveness"
         },
         "dtc": {
-            "url": "~/public/img/comm.png",
-            "title":"Landing page creation",
+            "title": "Landing page creation",
             "description": "Layout, design and development of a landing page for the Digital Test Centre website"
+        },
+        "event": {
+            "title": "Event coordination and organisation",
+            "description": "Organisation of official inaugurations and sporting events, communication before, during and after events",
+            "coordinator": "Coordination with elected officials and stakeholders",
+            "logistics": "Logistical organisation"
         },
         "tags": {
             "dev": "Web development",

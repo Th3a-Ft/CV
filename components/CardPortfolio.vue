@@ -1,7 +1,7 @@
 <template>
     <!-- onclick DisplayDetails devient false -->
     <button @click="DisplayDetails = !DisplayDetails"
-        class="border-solid border-gray-300 border-1 rounded-lg flex flex-col flex-nowrap p-4 bg-cover bg" :style="{ backgroundImage: `linear-gradient(rgba(254, 213, 0, 10), rgba(254,254,254,0.75)), url(${url})` }">
+        class="border-solid border-gray-300 border-1 rounded-lg flex flex-col flex-nowrap p-4 bg-cover" :style="{ backgroundImage: `linear-gradient(rgba(254, 213, 0, 10), rgba(254,254,254,0.90)), url(${url})` }">
         <div class="my-auto">
             <h2 class="text-xl text-center font-bold my-4">{{ title }}</h2>
             <div class="flex flex-col flex-wrap my-4 lg:m-8 my-auto">
@@ -18,11 +18,11 @@
                     <p v-for="skill in skills" class="border-solid text-white bg-[#800101] border-1 rounded-full px-6 py-2 m-2 text-center">{{ skill }}</p>
                 </div>
             </div>
-            <div class="md:hidden">
+            <!-- <div class="md:hidden">
                 <p :class="['text-xs bg-gray-100', DisplayDetails ? 'block' : 'hidden']">
                     {{ $t("general.clickMoreInfo") }}
                 </p>
-            </div>
+            </div> -->
         </div>
     </button>
 
