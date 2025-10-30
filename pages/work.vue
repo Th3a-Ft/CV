@@ -1,6 +1,8 @@
 <template>
+    <Banner
+    :title="'Portflio'"
+    :description="'fdezferzfreferf'"/>
 
-    <h1 class="text-2xl font-bold text-center p-4">Portfolio</h1>
     <div
         class="ml-6 border-solid border-gray-100 border-1 rounded-lg md:w-1/5 text-center w-2/3 ml-16 mx-16 mt-4 md:mx-auto my-4">
         <label for="ExperienceSelector">{{ $t("general.filter") }}</label>
@@ -19,7 +21,8 @@
     <div>
         <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
-            <CardPortfolio v-if="['all', 'development'].includes(tagSelected)" :url="'/img/landing_page.png'"
+            <CardPortfolio v-if="['all', 'development'].includes(tagSelected)"
+            :url="'/img/landing_page.png'"
                 :title="$t('portfolio.dtc.title')" :description="$t('portfolio.dtc.description')"
                 :skills="['Javascript - Vue.js / Nuxt', 'Figma']" :filterProps="TagFiltered" class="row-span-2" />
 

@@ -1,23 +1,12 @@
 <template>
-    <div class="h-150 py-10 md:py-25 bg-[#800101] text-white mb-16">
-        <div>
-            <h1 class="mt-8 text-center font-extrabold text-2xl">{{ $t('title.index') }}</h1>
-            <p class="text-center m-8"> {{ $t('general.descriptionIndex') }} </p>
-        </div>
-        <div class="flex flex-col w-1/2 mx-auto md:flex-row justify-evenly">
-            <NuxtLink :to="{ path: localePath('/'), hash: '#skills' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
-                {{ $t('skills.titleSection') }}</NuxtLink>
-            <NuxtLink :to="{ path: localePath('/'), hash: '#experiences' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
-                {{ $t('title.experiences') }}</NuxtLink>
-            <NuxtLink :to="{ path: localePath('/'), hash: '#trainings' }"
-                class="border-solid text-[#800101] font-semibold bg-[#fed500] rounded-lg px-6 py-2 m-2 text-center">
-                {{ $t('title.trainings') }}</NuxtLink>
+    <Banner
+    :title="$t('title.index')"
+    :description="$t('general.descriptionIndex')"
+    :links="[
+        {'url':'','hash':'#skills','text':$t('skills.titleSection')},
+        {'url':'','hash':'#experiences','text':$t('title.experiences')},
+        {'url':'','hash':'#trainings','text':$t('title.trainings')}]"/>
 
-
-        </div>
-    </div>
     <h2 class="text-center font-bold text-xl" id="skills">{{ $t('skills.titleSection') }}</h2>
     <div class="flex flex-row flex-wrap lg:flex-wrap lg:justify-evenly">
         <CardSkills
