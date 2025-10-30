@@ -4,7 +4,7 @@
         "bjr": "Bonjour"
     },
     "general": {
-        "filter": "Filtrer selon les expériences  ",
+        "filter": "Filtrer selon les domaines  ",
         "allFilter": "Tous",
         "clickMoreInfo": "Cliquez pour en savoir plus !",
         "descriptionIndex": "Développeuse web en reconversion après 3 ans dans la communication, je combine créativité, gestion de projet et compétences techniques (Vue.js, Laravel, Java). Mon objectif : concevoir des solutions web polyvalentes et innovantes, alliant technicité et sens de l’utilisateur.",
@@ -84,6 +84,7 @@
     },
     /* Traduction Portofolio */
     "portfolio": {
+        "description":"Entre développement web, gestion de projets événementiels, création de contenus sur les réseaux sociaux, graphisme, j'ai eu l'opportunité de réaliser de nombreux projets à travers mes différentes expériences.",
         "social": {
             "title": "Animation des réseaux sociaux",
             "description": "Création, publication, suivi des contenus sur les réseaux sociaux (Facebook, Instagram, Linkedin)"
@@ -118,7 +119,7 @@
             "graphic": "Graphisme"
         }
     },
-    /*Trad CardSkills*/
+    /*Traduction CardSkills*/
     "skills": {
         "titleSection": "Mes compétences",
         "dev": {
@@ -151,13 +152,16 @@
     },
     /*Page About Me*/
     "aboutMe": {
+        "title":"A propos de moi",
         "description": "Après plusieurs années d’expérience dans le domaine de la communication, où j’ai eu l’opportunité d’évoluer dans des secteurs variés — public, privé et associatif — j’ai choisi d’enrichir mes compétences. C’est pourquoi j’ai entrepris la formation de « Développeur avancé » au Campus Numérique in the Alps.",
-        "riasec": "Au-delà de mon parcours professionnel, mon profil RIASEC révèle que je suis une personne sociale, méthodique et curieuse. Sociale, car j’apprécie le travail en équipe et la collaboration sur des projets communs. Méthodique, car je me sens à l’aise dans un environnement structuré qui demande rigueur, organisation et précision. Et curieuse, car j’aime apprendre, découvrir et comprendre de nouvelles choses.",
+        "riasec":{
+            "title":"Social, Méthodique et Curieuse",
+            "description":"Mon profil RIASEC révèle ces trois traits de mon caractère. Sociale, car j’apprécie le travail en équipe et la collaboration sur des projets communs. Méthodique, car je me sens à l’aise dans un environnement structuré qui demande rigueur, organisation et précision. Et curieuse, car j’aime apprendre, découvrir et comprendre de nouvelles choses."},
         "hobbies": {
             "title": "Mes centres d'intérêts",
             "travelling": {
                 "title": "Voyager",
-                "description": "J'ai eu la chance d'avoir pu voyager un petit peu partout en France, d'avoir visité la Réunion et d'avoir voyagé en Allemagne, Irlande, aux Pays de Galles et au Portugal."
+                "description": "J'ai eu la chance d'avoir pu visiter la France métropolitaine, d'avoir voyagé à la Réunion, en Allemagne, en Irlande, aux Pays de Galles et au Portugal."
             },
             "reading": {
                 "title": "Lire",

@@ -3,7 +3,7 @@
         "bjr": "Hello"
     },
     "general": {
-        "filter": "Filter by experience  ",
+        "filter": "Filter by field",
         "allFilter": "All",
         "clickMoreInfo": "Click to know more!",
         "descriptionIndex": "A web developer retraining after three years in communications, I combine creativity, project management and technical skills (Vue.js, Laravel, Java). My goal: to design versatile and innovative web solutions that combine technical expertise with user-friendliness.",
@@ -25,7 +25,7 @@
         "portfolio": "Portfolio",
         "about": "About me"
     },
-    /* Trad CardExperience */
+    /* Traduction CardExperience */
     "experiences": {
         "nineteen": {
             "id": "nineteen",
@@ -76,9 +76,9 @@
             "school": "IUT de St-Etienne"
         }
     },
-    /* Trad Portofolio */
+    /* Traduction Portofolio */
     "portfolio": {
-        "title": "You are ?",
+        "description":"Between web development, event project management, social media content creation, and graphic design, I have had the opportunity to work on numerous projects throughout my various experiences.",
         "social": {
             "title": "Social Media Manager",
             "description": "Day-to-day management of the Facebook, Instagram and LinkedIn accounts: planning and publishing content, animating communities, moderating comments and private messages. Creating attractive visuals, writing texts adapted to each platform, and monitoring performance using analysis tools. Objective: to develop brand awareness, boost engagement and support marketing objectives."
@@ -113,7 +113,7 @@
             "graphic": "Graphc design"
         }
     },
-    /*Trad CardSkills*/
+    /*Traduction CardSkills*/
     "skills": {
         "titleSection": "My skills",
         "dev": {
@@ -141,15 +141,18 @@
             "english": "English - level B2 (TOIEC 935)"
         }
     },
-    /*PAge ABout Me*/
+    /*Page About Me*/
     "aboutMe": {
+        "title":"About me",
         "description": "After several years' experience in the communications field, where I had the opportunity to work in a variety of sectors - public, private and voluntary - I decided to enhance my skills. That's why I took the “Advanced Developer” course at Campus Numérique in the Alps. ",
-        "riasec": "Beyond my professional background, my RIASEC profile reveals that I'm a social, methodical and curious person. Social, because I enjoy working in a team and collaborating on joint projects. Methodical, because I feel at ease in a structured environment that requires rigour, organisation and precision. And curious, because I love learning, discovering and understanding new things.",
+        "riasec": {
+            "title":"Social, Methodical and Curious",
+            "description":"My RIASEC profile reveals these three traits of my character. Social, because I enjoy working in a team and collaborating on joint projects. Methodical, because I feel at ease in a structured environment that requires rigour, organisation and precision. And curious, because I love learning, discovering and understanding new things."},
         "hobbies": {
             "title": "My hobbies",
             "travelling": {
                 "title": "Travelling",
-                "description": "I have been fortunate enough to travel throughout France, visit Réunion island, and travel to Germany, Ireland, Wales, and Portugal."
+                "description": "I was fortunate enough to visit mainland France, travel to Réunion island, Germany, Ireland, Wales, and Portugal."
             },
             "reading": {
                 "title": "Reading",

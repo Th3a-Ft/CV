@@ -1,7 +1,7 @@
 <template>
     <Banner
     :title="'Portflio'"
-    :description="'fdezferzfreferf'"/>
+    :description="$t('portfolio.description')"/>
 
     <div
         class="ml-6 border-solid border-gray-100 border-1 rounded-lg md:w-1/5 text-center w-2/3 ml-16 mx-16 mt-4 md:mx-auto my-4">

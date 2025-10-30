@@ -1,19 +1,23 @@
 <template>
-    <Banner :title="'Title'" :description="$t('aboutMe.description')" :links="[
+    <Banner :title="$t('aboutMe.title')" :description="$t('aboutMe.description')" :links="[
         { 'url': '', 'text': 'Accueil' },
         { 'url': '', 'text': 'Accueil' },
         { 'url': '', 'text': 'Accueil' }]" />
+
+
+    <div class="ml-8">
+        <h2 class="font-bold text-xl text-center mb-4">{{ $t("aboutMe.riasec.title") }}</h2>
+        <p class="mb-8"> {{ $t("aboutMe.riasec.description") }} </p>
+    </div>
     <div class="flex flex-col lg:flex-row md:flex-nowrap">
 
         <div class="p-8 flex flex-col-reverse md:flex-row md:flex-nowrap">
             <div class="md:mr-2">
                 <NuxtImg src="/img/thea-fort.jpeg" alt="Théa Fort" class="rounded-lg" />
             </div>
+
             <div class="flex flex-col">
-                <div class="ml-4">
-                    <h2 class="font-bold text-xl text-center">{{ $t("aboutMe.riasec.title") }}</h2>
-                    <p class="mb-8"> {{ $t("aboutMe.riasec") }} </p>
-                </div>
+
 
                 <h2 class="font-bold text-xl text-center">{{ $t("aboutMe.hobbies.title") }}</h2>
                 <div class="flex flex-col md:flex-row">
