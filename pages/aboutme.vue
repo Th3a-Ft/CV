@@ -1,8 +1,5 @@
 <template>
-    <Banner :title="$t('aboutMe.title')" :description="$t('aboutMe.description')" :links="[
-        { 'url': '', 'text': 'Accueil' },
-        { 'url': '', 'text': 'Accueil' },
-        { 'url': '', 'text': 'Accueil' }]" />
+    <Banner :title="$t('aboutMe.title')" :description="$t('aboutMe.description')"  />
 
 
     <div class="ml-8">

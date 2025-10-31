@@ -1,5 +1,5 @@
 <template>
-    <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl m-8 pb-8 px-8">
+    <div class="card">
         <h3 class="m-4 md:mt-8 font-bold text-center">{{ title }}</h3>
         <p class="text-xs pt-2 pl-2">{{ school }} - {{ date }}</p>
         <div class="text-center mt-8">

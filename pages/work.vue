@@ -1,7 +1,5 @@
 <template>
-    <Banner
-    :title="'Portflio'"
-    :description="$t('portfolio.description')"/>
+    <Banner :title="'Portflio'" :description="$t('portfolio.description')" />
 
     <div
         class="ml-6 border-solid border-gray-100 border-1 rounded-lg md:w-1/5 text-center w-2/3 ml-16 mx-16 mt-4 md:mx-auto my-4">
@@ -21,8 +19,7 @@
     <div>
         <div class="grid md:grid-cols-3 gap-8 m-16">
             <!-- Si dans tagSelected il y a une des valeurs de [] alors afficher -->
-            <CardPortfolio v-if="['all', 'development'].includes(tagSelected)"
-            :url="'/img/landing_page.png'"
+            <CardPortfolio v-if="['all', 'development'].includes(tagSelected)" :url="'/img/landing_page.png'"
                 :title="$t('portfolio.dtc.title')" :description="$t('portfolio.dtc.description')"
                 :skills="['Javascript - Vue.js / Nuxt', 'Figma']" :filterProps="TagFiltered" class="row-span-2" />
 
@@ -30,22 +27,18 @@
                 :url="'/img/social_media.png'" :title="$t('portfolio.social.title')"
                 :description="$t('portfolio.social.description')" :skills="['Planification', 'Graphisme', 'Canva']" />
 
-            <CardPortfolio v-if="['all', 'graphisme'].includes(tagSelected)"
-                :url="'/'"
+            <CardPortfolio v-if="['all', 'graphisme'].includes(tagSelected)" :url="'/'"
                 :title="$t('portfolio.graphic.title')" :description="$t('portfolio.graphic.description')"
                 :skills="[$t('portfolio.graphic.creativity'), $t('portfolio.graphic.responsiveness'), 'Inkscape', 'Scribus']"
                 :filterProps="TagFiltered" />
 
-            <CardPortfolio v-if="['all', 'graphisme'].includes(tagSelected)" 
-                :url="'/img/quaterly_bulletin.png'"
+            <CardPortfolio v-if="['all', 'graphisme'].includes(tagSelected)" :url="'/img/quaterly_bulletin.png'"
                 :title="$t('portfolio.quaterlyBulletin.title')"
                 :description="$t('portfolio.quaterlyBulletin.description')"
                 :skills="['Adobe Illustrator', 'Scribus', $t('portfolio.quaterlyBulletin.creativity'), $t('portfolio.quaterlyBulletin.responsiveness'), $t('portfolio.quaterlyBulletin.interactionConcillor')]" />
 
-            <CardPortfolio v-if="['all', 'evenementiel'].includes(tagSelected)" 
-                :url="'/img/event.png'"
-                :title="$t('portfolio.event.title')"
-                :description="$t('portfolio.event.description')"
+            <CardPortfolio v-if="['all', 'evenementiel'].includes(tagSelected)" :url="'/img/event.png'"
+                :title="$t('portfolio.event.title')" :description="$t('portfolio.event.description')"
                 :skills="[$t('portfolio.event.coordinator'), $t('portfolio.event.logistic')]" />
 
         </div>

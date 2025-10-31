@@ -1,6 +1,6 @@
 <template>
-    <div class="border-solid border-gray-100 border-1 rounded-lg shadow-2xl m-8 pb-8 px-8">
-        <h3 class="m-4 md:mt-8 font-bold text-center">{{ title }}</h3>
+    <div class="card">
+        <h3 class="md:mt-8">{{ title }}</h3>
         <p class="text-xs pt-2 pl-2">{{ company }} - {{ date }}</p>
         <p class="p-2">{{ description }}</p>
         <div class="text-center mt-8">
